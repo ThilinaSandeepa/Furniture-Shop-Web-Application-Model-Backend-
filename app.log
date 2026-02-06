@@ -1,0 +1,1614 @@
+2025-04-04 18:58:46,016 - room-planner-api - ERROR - Failed to initialize model: 'RoomPlannerModel' object has no attribute 'logger'
+2025-04-04 18:58:46,017 - room-planner-api - INFO - Starting server on port 5001, debug mode: False
+2025-04-04 18:58:46,036 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.8.142:5001
+2025-04-04 18:58:46,036 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 19:35:43,746 - room-planner-api - ERROR - Failed to initialize model: 'RoomPlannerModel' object has no attribute 'logger'
+2025-04-04 19:35:43,747 - room-planner-api - INFO - Starting server on port 5001, debug mode: False
+2025-04-04 19:35:43,758 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.8.142:5001
+2025-04-04 19:35:43,759 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 19:36:17,071 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 19:36:17] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-04 19:36:17,077 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 19:36:17] "[35m[1mPOST /api/search HTTP/1.1[0m" 500 -
+2025-04-04 19:43:07,410 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-04 19:43:07,410 - room-planner-api - INFO - Model initialized successfully
+2025-04-04 19:43:07,411 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-04 19:43:07,431 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.8.142:5001
+2025-04-04 19:43:07,431 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 19:43:07,438 - werkzeug - INFO -  * Restarting with watchdog (fsevents)
+2025-04-04 19:43:08,160 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-04 19:43:08,160 - room-planner-api - INFO - Model initialized successfully
+2025-04-04 19:43:08,161 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-04 19:43:08,166 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 19:43:08,176 - werkzeug - INFO -  * Debugger PIN: 242-691-670
+2025-04-04 19:43:19,129 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 19:43:19] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-04 19:43:19,133 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'living-room', 'style': 'classic', 'budget': 'low'}
+2025-04-04 19:43:19,133 - RoomPlannerModel - INFO - Searching for: medium living-room, classic style, low budget
+2025-04-04 19:43:19,144 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-04 19:43:19,144 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 19:43:19] "POST /api/search HTTP/1.1" 200 -
+2025-04-04 19:43:50,471 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 19:43:50] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-04 19:43:50,476 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'dining', 'style': 'modern', 'budget': 'low'}
+2025-04-04 19:43:50,477 - RoomPlannerModel - INFO - Searching for: small dining, modern style, low budget
+2025-04-04 19:43:50,486 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-04 19:43:50,487 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 19:43:50] "POST /api/search HTTP/1.1" 200 -
+2025-04-04 19:45:45,033 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 19:45:45] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-04 19:45:45,041 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'living-room', 'style': 'modern', 'budget': 'low'}
+2025-04-04 19:45:45,041 - RoomPlannerModel - INFO - Searching for: small living-room, modern style, low budget
+2025-04-04 19:45:45,051 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-04 19:45:45,051 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 19:45:45] "POST /api/search HTTP/1.1" 200 -
+2025-04-04 19:46:00,474 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 19:46:00] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-04 19:46:00,480 - room-planner-api - INFO - Search request received: {'roomSize': 'large', 'roomType': 'living-room', 'style': 'modern', 'budget': 'medium'}
+2025-04-04 19:46:00,481 - RoomPlannerModel - INFO - Searching for: large living-room, modern style, medium budget
+2025-04-04 19:46:00,488 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-04 19:46:00,489 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 19:46:00] "POST /api/search HTTP/1.1" 200 -
+2025-04-04 20:27:22,037 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:27:22] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-04 20:27:22,056 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'living-room', 'style': 'modern', 'budget': 'medium'}
+2025-04-04 20:27:22,056 - RoomPlannerModel - INFO - Searching for: small living-room, modern style, medium budget
+2025-04-04 20:27:22,065 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-04 20:27:22,065 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:27:22] "POST /api/search HTTP/1.1" 200 -
+2025-04-04 20:35:31,482 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:35:31] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-04 20:35:31,488 - room-planner-api - INFO - Search request received: {'roomSize': 'large', 'roomType': 'living-room', 'style': 'modern', 'budget': 'medium'}
+2025-04-04 20:35:31,488 - RoomPlannerModel - INFO - Searching for: large living-room, modern style, medium budget
+2025-04-04 20:35:31,495 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-04 20:35:31,496 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:35:31] "POST /api/search HTTP/1.1" 200 -
+2025-04-04 20:35:58,238 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:35:58] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-04 20:35:58,242 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'bedroom', 'style': 'modern', 'budget': 'medium'}
+2025-04-04 20:35:58,242 - RoomPlannerModel - INFO - Searching for: small bedroom, modern style, medium budget
+2025-04-04 20:35:58,253 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-04 20:35:58,253 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:35:58] "POST /api/search HTTP/1.1" 200 -
+2025-04-04 20:36:36,202 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:36:36] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-04 20:36:36,205 - room-planner-api - INFO - Search request received: {'roomSize': 'large', 'roomType': 'bedroom', 'style': 'minimalist', 'budget': 'low'}
+2025-04-04 20:36:36,205 - RoomPlannerModel - INFO - Searching for: large bedroom, minimalist style, low budget
+2025-04-04 20:36:36,210 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-04 20:36:36,210 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:36:36] "POST /api/search HTTP/1.1" 200 -
+2025-04-04 20:45:23,624 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-04 20:45:23,625 - room-planner-api - INFO - Model initialized successfully
+2025-04-04 20:45:23,625 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-04 20:45:23,646 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.8.142:5001
+2025-04-04 20:45:23,647 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 20:45:23,654 - werkzeug - INFO -  * Restarting with watchdog (fsevents)
+2025-04-04 20:45:24,401 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-04 20:45:24,401 - room-planner-api - INFO - Model initialized successfully
+2025-04-04 20:45:24,402 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-04 20:45:24,406 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 20:45:24,417 - werkzeug - INFO -  * Debugger PIN: 242-691-670
+2025-04-04 20:45:47,854 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:45:47] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-04 20:45:47,859 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'bedroom', 'style': 'modern', 'budget': 'medium'}
+2025-04-04 20:45:47,859 - RoomPlannerModel - INFO - Searching for: small bedroom, modern style, medium budget
+2025-04-04 20:45:47,871 - room-planner-api - ERROR - Error in search endpoint: Length of values (10) does not match length of index (20)
+Traceback (most recent call last):
+  File "/Users/aathifahmd/Desktop/final/Backend/app.py", line 75, in search
+    result = model.search(room_size, room_type, style, budget, limit)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aathifahmd/Desktop/final/Backend/model.py", line 117, in search
+    similarity_df = self._similarity_search(room_size, room_type, style, budget_range, limit)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aathifahmd/Desktop/final/Backend/model.py", line 196, in _similarity_search
+    result_df['match_score'] = similarities * 100
+    ~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/pandas/core/frame.py", line 4311, in __setitem__
+    self._set_item(key, value)
+  File "/opt/anaconda3/lib/python3.12/site-packages/pandas/core/frame.py", line 4524, in _set_item
+    value, refs = self._sanitize_column(value)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/pandas/core/frame.py", line 5266, in _sanitize_column
+    com.require_length_match(value, self.index)
+  File "/opt/anaconda3/lib/python3.12/site-packages/pandas/core/common.py", line 573, in require_length_match
+    raise ValueError(
+ValueError: Length of values (10) does not match length of index (20)
+2025-04-04 20:45:47,878 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:45:47] "[35m[1mPOST /api/search HTTP/1.1[0m" 500 -
+2025-04-04 20:47:31,099 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:47:31] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-04 20:47:31,103 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'living-room', 'style': 'modern', 'budget': 'low'}
+2025-04-04 20:47:31,103 - RoomPlannerModel - INFO - Searching for: small living-room, modern style, low budget
+2025-04-04 20:47:31,107 - room-planner-api - ERROR - Error in search endpoint: Length of values (10) does not match length of index (20)
+Traceback (most recent call last):
+  File "/Users/aathifahmd/Desktop/final/Backend/app.py", line 75, in search
+    result = model.search(room_size, room_type, style, budget, limit)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aathifahmd/Desktop/final/Backend/model.py", line 117, in search
+    similarity_df = self._similarity_search(room_size, room_type, style, budget_range, limit)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aathifahmd/Desktop/final/Backend/model.py", line 196, in _similarity_search
+    result_df['match_score'] = similarities * 100
+    ~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/pandas/core/frame.py", line 4311, in __setitem__
+    self._set_item(key, value)
+  File "/opt/anaconda3/lib/python3.12/site-packages/pandas/core/frame.py", line 4524, in _set_item
+    value, refs = self._sanitize_column(value)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/pandas/core/frame.py", line 5266, in _sanitize_column
+    com.require_length_match(value, self.index)
+  File "/opt/anaconda3/lib/python3.12/site-packages/pandas/core/common.py", line 573, in require_length_match
+    raise ValueError(
+ValueError: Length of values (10) does not match length of index (20)
+2025-04-04 20:47:31,107 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:47:31] "[35m[1mPOST /api/search HTTP/1.1[0m" 500 -
+2025-04-04 20:48:42,572 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-04 20:48:42,572 - room-planner-api - INFO - Model initialized successfully
+2025-04-04 20:48:42,573 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-04 20:48:42,592 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.8.142:5001
+2025-04-04 20:48:42,592 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 20:48:42,598 - werkzeug - INFO -  * Restarting with watchdog (fsevents)
+2025-04-04 20:48:43,359 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-04 20:48:43,359 - room-planner-api - INFO - Model initialized successfully
+2025-04-04 20:48:43,360 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-04 20:48:43,364 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 20:48:43,373 - werkzeug - INFO -  * Debugger PIN: 242-691-670
+2025-04-04 20:48:54,928 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:48:54] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-04 20:48:54,933 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'bedroom', 'style': 'modern', 'budget': 'medium'}
+2025-04-04 20:48:54,933 - RoomPlannerModel - INFO - Searching for: medium bedroom, modern style, medium budget
+2025-04-04 20:48:54,943 - room-planner-api - ERROR - Error in search endpoint: Length of values (10) does not match length of index (20)
+Traceback (most recent call last):
+  File "/Users/aathifahmd/Desktop/final/Backend/app.py", line 75, in search
+    result = model.search(room_size, room_type, style, budget, limit)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aathifahmd/Desktop/final/Backend/model.py", line 117, in search
+    similarity_df = self._similarity_search(room_size, room_type, style, budget_range, limit)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aathifahmd/Desktop/final/Backend/model.py", line 196, in _similarity_search
+    result_df['match_score'] = similarities * 100
+    ~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/pandas/core/frame.py", line 4311, in __setitem__
+    self._set_item(key, value)
+  File "/opt/anaconda3/lib/python3.12/site-packages/pandas/core/frame.py", line 4524, in _set_item
+    value, refs = self._sanitize_column(value)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/pandas/core/frame.py", line 5266, in _sanitize_column
+    com.require_length_match(value, self.index)
+  File "/opt/anaconda3/lib/python3.12/site-packages/pandas/core/common.py", line 573, in require_length_match
+    raise ValueError(
+ValueError: Length of values (10) does not match length of index (20)
+2025-04-04 20:48:54,949 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:48:54] "[35m[1mPOST /api/search HTTP/1.1[0m" 500 -
+2025-04-04 20:59:45,418 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-04 20:59:45,418 - room-planner-api - INFO - Model initialized successfully
+2025-04-04 20:59:45,419 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-04 20:59:45,441 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.8.142:5001
+2025-04-04 20:59:45,441 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 20:59:45,448 - werkzeug - INFO -  * Restarting with watchdog (fsevents)
+2025-04-04 20:59:46,284 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-04 20:59:46,284 - room-planner-api - INFO - Model initialized successfully
+2025-04-04 20:59:46,285 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-04 20:59:46,289 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 20:59:46,301 - werkzeug - INFO -  * Debugger PIN: 242-691-670
+2025-04-04 20:59:59,552 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:59:59] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-04 20:59:59,561 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'bedroom', 'style': 'classic', 'budget': 'low'}
+2025-04-04 20:59:59,561 - RoomPlannerModel - INFO - Searching for: medium bedroom, classic style, low budget
+2025-04-04 20:59:59,570 - room-planner-api - ERROR - Error in search endpoint: Length of values (10) does not match length of index (20)
+Traceback (most recent call last):
+  File "/Users/aathifahmd/Desktop/final/Backend/app.py", line 75, in search
+    result = model.search(room_size, room_type, style, budget, limit)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aathifahmd/Desktop/final/Backend/model.py", line 117, in search
+    similarity_df = self._similarity_search(room_size, room_type, style, budget_range, limit)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aathifahmd/Desktop/final/Backend/model.py", line 217, in _similarity_search
+    result_df['match_score'] = similarities * 100
+    ~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/pandas/core/frame.py", line 4311, in __setitem__
+    self._set_item(key, value)
+  File "/opt/anaconda3/lib/python3.12/site-packages/pandas/core/frame.py", line 4524, in _set_item
+    value, refs = self._sanitize_column(value)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/pandas/core/frame.py", line 5266, in _sanitize_column
+    com.require_length_match(value, self.index)
+  File "/opt/anaconda3/lib/python3.12/site-packages/pandas/core/common.py", line 573, in require_length_match
+    raise ValueError(
+ValueError: Length of values (10) does not match length of index (20)
+2025-04-04 20:59:59,577 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:59:59] "[35m[1mPOST /api/search HTTP/1.1[0m" 500 -
+2025-04-04 21:00:50,851 - werkzeug - INFO -  * Detected change in '/Users/aathifahmd/Desktop/final/Backend/model.py', reloading
+2025-04-04 21:00:51,963 - werkzeug - INFO -  * Restarting with watchdog (fsevents)
+2025-04-04 21:00:52,996 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-04 21:00:52,996 - room-planner-api - INFO - Model initialized successfully
+2025-04-04 21:00:52,997 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-04 21:00:53,003 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 21:00:53,012 - werkzeug - INFO -  * Debugger PIN: 242-691-670
+2025-04-04 21:01:19,166 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-04 21:01:19,166 - room-planner-api - INFO - Model initialized successfully
+2025-04-04 21:01:19,166 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-04 21:01:19,183 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.8.142:5001
+2025-04-04 21:01:19,183 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 21:01:19,187 - werkzeug - INFO -  * Restarting with watchdog (fsevents)
+2025-04-04 21:01:19,989 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-04 21:01:19,989 - room-planner-api - INFO - Model initialized successfully
+2025-04-04 21:01:19,990 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-04 21:01:19,995 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 21:01:20,005 - werkzeug - INFO -  * Debugger PIN: 242-691-670
+2025-04-04 21:01:42,099 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:01:42] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-04 21:01:42,104 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'living-room', 'style': 'modern', 'budget': 'medium'}
+2025-04-04 21:01:42,104 - RoomPlannerModel - INFO - Searching for: medium living-room, modern style, medium budget
+2025-04-04 21:01:42,112 - room-planner-api - ERROR - Error in search endpoint: index 10 is out of bounds for axis 0 with size 10
+Traceback (most recent call last):
+  File "/Users/aathifahmd/Desktop/final/Backend/app.py", line 75, in search
+    result = model.search(room_size, room_type, style, budget, limit)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aathifahmd/Desktop/final/Backend/model.py", line 117, in search
+    similarity_df = self._similarity_search(room_size, room_type, style, budget_range, limit)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aathifahmd/Desktop/final/Backend/model.py", line 227, in _similarity_search
+    result_df['match_score'] = [all_similarities[i] for i in result_df.index]
+                                ~~~~~~~~~~~~~~~~^^^
+IndexError: index 10 is out of bounds for axis 0 with size 10
+2025-04-04 21:01:42,116 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:01:42] "[35m[1mPOST /api/search HTTP/1.1[0m" 500 -
+2025-04-04 21:02:13,939 - werkzeug - INFO -  * Detected change in '/Users/aathifahmd/Desktop/final/Backend/model.py', reloading
+2025-04-04 21:02:14,445 - werkzeug - INFO -  * Restarting with watchdog (fsevents)
+2025-04-04 21:02:15,378 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-04 21:02:15,378 - room-planner-api - INFO - Model initialized successfully
+2025-04-04 21:02:15,379 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-04 21:02:15,385 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 21:02:15,395 - werkzeug - INFO -  * Debugger PIN: 242-691-670
+2025-04-04 21:02:45,323 - werkzeug - INFO -  * Detected change in '/Users/aathifahmd/Desktop/final/Backend/model.py', reloading
+2025-04-04 21:02:45,684 - werkzeug - INFO -  * Restarting with watchdog (fsevents)
+2025-04-04 21:02:46,437 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-04 21:02:46,437 - room-planner-api - INFO - Model initialized successfully
+2025-04-04 21:02:46,438 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-04 21:02:46,443 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 21:02:46,451 - werkzeug - INFO -  * Debugger PIN: 242-691-670
+2025-04-04 21:03:17,186 - werkzeug - INFO -  * Detected change in '/Users/aathifahmd/Desktop/final/Backend/model.py', reloading
+2025-04-04 21:03:17,783 - werkzeug - INFO -  * Restarting with watchdog (fsevents)
+2025-04-04 21:03:18,511 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-04 21:03:18,511 - room-planner-api - INFO - Model initialized successfully
+2025-04-04 21:03:18,511 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-04 21:03:18,516 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 21:03:18,527 - werkzeug - INFO -  * Debugger PIN: 242-691-670
+2025-04-04 21:03:37,133 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:03:37] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-04 21:03:37,135 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'living-room', 'style': 'modern', 'budget': 'medium'}
+2025-04-04 21:03:37,135 - RoomPlannerModel - INFO - Searching for: medium living-room, modern style, medium budget
+2025-04-04 21:03:37,143 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-04 21:03:37,143 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:03:37] "POST /api/search HTTP/1.1" 200 -
+2025-04-04 21:03:52,710 - werkzeug - INFO -  * Detected change in '/Users/aathifahmd/Desktop/final/Backend/model.py', reloading
+2025-04-04 21:03:52,847 - werkzeug - INFO -  * Restarting with watchdog (fsevents)
+2025-04-04 21:03:53,927 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-04 21:03:53,927 - room-planner-api - INFO - Model initialized successfully
+2025-04-04 21:03:53,928 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-04 21:03:53,935 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 21:03:53,944 - werkzeug - INFO -  * Debugger PIN: 242-691-670
+2025-04-04 21:04:14,104 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-04 21:04:14,104 - room-planner-api - INFO - Model initialized successfully
+2025-04-04 21:04:14,105 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-04 21:04:14,124 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.8.142:5001
+2025-04-04 21:04:14,125 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 21:04:14,130 - werkzeug - INFO -  * Restarting with watchdog (fsevents)
+2025-04-04 21:04:14,905 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-04 21:04:14,905 - room-planner-api - INFO - Model initialized successfully
+2025-04-04 21:04:14,906 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-04 21:04:14,910 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 21:04:14,920 - werkzeug - INFO -  * Debugger PIN: 242-691-670
+2025-04-04 21:04:36,490 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:04:36] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-04 21:04:36,494 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'living-room', 'style': 'modern', 'budget': 'low'}
+2025-04-04 21:04:36,494 - RoomPlannerModel - INFO - Searching for: small living-room, modern style, low budget
+2025-04-04 21:04:36,507 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-04 21:04:36,508 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:04:36] "POST /api/search HTTP/1.1" 200 -
+2025-04-04 21:04:57,487 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:04:57] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-04 21:04:57,489 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'bedroom', 'style': 'modern', 'budget': 'low'}
+2025-04-04 21:04:57,489 - RoomPlannerModel - INFO - Searching for: small bedroom, modern style, low budget
+2025-04-04 21:04:57,495 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-04 21:04:57,495 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:04:57] "POST /api/search HTTP/1.1" 200 -
+2025-04-04 21:14:06,773 - werkzeug - INFO -  * Detected change in '/Users/aathifahmd/Desktop/final/Backend/model.py', reloading
+2025-04-04 21:14:07,270 - werkzeug - INFO -  * Restarting with watchdog (fsevents)
+2025-04-04 21:14:08,442 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-04 21:14:08,442 - room-planner-api - INFO - Model initialized successfully
+2025-04-04 21:14:08,443 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-04 21:14:08,450 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 21:14:08,459 - werkzeug - INFO -  * Debugger PIN: 242-691-670
+2025-04-05 09:49:05,588 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-05 09:49:05,590 - room-planner-api - INFO - Model initialized successfully
+2025-04-05 09:49:05,592 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-05 09:49:05,646 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.8.120:5001
+2025-04-05 09:49:05,647 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 09:49:05,650 - werkzeug - INFO -  * Restarting with stat
+2025-04-05 09:49:06,919 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-05 09:49:06,920 - room-planner-api - INFO - Model initialized successfully
+2025-04-05 09:49:06,921 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-05 09:49:06,942 - werkzeug - WARNING -  * Debugger is active!
+2025-04-05 09:49:06,948 - werkzeug - INFO -  * Debugger PIN: 972-106-602
+2025-04-05 09:50:50,211 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 09:50:50] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-05 09:50:50,240 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'living-room', 'style': 'modern', 'budget': 'low'}
+2025-04-05 09:50:50,240 - RoomPlannerModel - INFO - Searching for: small living-room, modern style, low budget
+2025-04-05 09:50:50,392 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-05 09:50:50,394 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 09:50:50] "POST /api/search HTTP/1.1" 200 -
+2025-04-05 09:54:10,353 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 09:54:10] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-05 09:54:10,384 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'living-room', 'style': 'modern', 'budget': 'low'}
+2025-04-05 09:54:10,385 - RoomPlannerModel - INFO - Searching for: small living-room, modern style, low budget
+2025-04-05 09:54:10,487 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-05 09:54:10,489 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 09:54:10] "POST /api/search HTTP/1.1" 200 -
+2025-04-05 09:56:01,401 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 09:56:01] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-05 09:56:01,427 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'living-room', 'style': 'modern', 'budget': 'low'}
+2025-04-05 09:56:01,427 - RoomPlannerModel - INFO - Searching for: small living-room, modern style, low budget
+2025-04-05 09:56:01,540 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-05 09:56:01,542 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 09:56:01] "POST /api/search HTTP/1.1" 200 -
+2025-04-05 09:57:46,621 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 09:57:46] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-05 09:57:46,654 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'living-room', 'style': 'modern', 'budget': 'low'}
+2025-04-05 09:57:46,655 - RoomPlannerModel - INFO - Searching for: small living-room, modern style, low budget
+2025-04-05 09:57:46,775 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-05 09:57:46,777 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 09:57:46] "POST /api/search HTTP/1.1" 200 -
+2025-04-05 09:58:55,570 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 09:58:55] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-05 09:58:55,590 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'living-room', 'style': 'modern', 'budget': 'low'}
+2025-04-05 09:58:55,590 - RoomPlannerModel - INFO - Searching for: small living-room, modern style, low budget
+2025-04-05 09:58:55,625 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-05 09:58:55,627 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 09:58:55] "POST /api/search HTTP/1.1" 200 -
+2025-04-05 10:01:20,356 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 10:01:20] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-05 10:01:20,393 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'living-room', 'style': 'modern', 'budget': 'low'}
+2025-04-05 10:01:20,395 - RoomPlannerModel - INFO - Searching for: medium living-room, modern style, low budget
+2025-04-05 10:01:20,534 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-05 10:01:20,537 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 10:01:20] "POST /api/search HTTP/1.1" 200 -
+2025-04-05 10:01:29,687 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 10:01:29] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-05 10:01:29,714 - room-planner-api - INFO - Search request received: {'roomSize': 'large', 'roomType': 'living-room', 'style': 'modern', 'budget': 'low'}
+2025-04-05 10:01:29,716 - RoomPlannerModel - INFO - Searching for: large living-room, modern style, low budget
+2025-04-05 10:01:29,732 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-05 10:01:29,733 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 10:01:29] "POST /api/search HTTP/1.1" 200 -
+2025-04-05 10:01:32,631 - room-planner-api - INFO - Search request received: {'roomSize': 'large', 'roomType': 'living-room', 'style': 'modern', 'budget': 'low'}
+2025-04-05 10:01:32,632 - RoomPlannerModel - INFO - Searching for: large living-room, modern style, low budget
+2025-04-05 10:01:32,647 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-05 10:01:32,649 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 10:01:32] "POST /api/search HTTP/1.1" 200 -
+2025-04-05 10:01:33,790 - room-planner-api - INFO - Search request received: {'roomSize': 'large', 'roomType': 'living-room', 'style': 'modern', 'budget': 'low'}
+2025-04-05 10:01:33,791 - RoomPlannerModel - INFO - Searching for: large living-room, modern style, low budget
+2025-04-05 10:01:33,803 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-05 10:01:33,805 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 10:01:33] "POST /api/search HTTP/1.1" 200 -
+2025-04-05 10:01:34,607 - room-planner-api - INFO - Search request received: {'roomSize': 'large', 'roomType': 'living-room', 'style': 'modern', 'budget': 'low'}
+2025-04-05 10:01:34,607 - RoomPlannerModel - INFO - Searching for: large living-room, modern style, low budget
+2025-04-05 10:01:34,622 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-05 10:01:34,623 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 10:01:34] "POST /api/search HTTP/1.1" 200 -
+2025-04-05 10:01:39,860 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 10:01:39] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-05 10:01:39,889 - room-planner-api - INFO - Search request received: {'roomSize': 'large', 'roomType': 'living-room', 'style': 'modern', 'budget': 'low'}
+2025-04-05 10:01:39,890 - RoomPlannerModel - INFO - Searching for: large living-room, modern style, low budget
+2025-04-05 10:01:39,905 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-05 10:01:39,906 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 10:01:39] "POST /api/search HTTP/1.1" 200 -
+2025-04-05 10:01:42,961 - room-planner-api - INFO - Search request received: {'roomSize': 'large', 'roomType': 'living-room', 'style': 'modern', 'budget': 'low'}
+2025-04-05 10:01:42,961 - RoomPlannerModel - INFO - Searching for: large living-room, modern style, low budget
+2025-04-05 10:01:42,977 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-05 10:01:42,978 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 10:01:42] "POST /api/search HTTP/1.1" 200 -
+2025-04-05 10:01:46,329 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 10:01:46] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-05 10:01:46,355 - room-planner-api - INFO - Search request received: {'roomSize': 'large', 'roomType': 'living-room', 'style': 'modern', 'budget': 'medium'}
+2025-04-05 10:01:46,356 - RoomPlannerModel - INFO - Searching for: large living-room, modern style, medium budget
+2025-04-05 10:01:46,369 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-05 10:01:46,373 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 10:01:46] "POST /api/search HTTP/1.1" 200 -
+2025-04-05 10:09:36,203 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-05 10:09:36,204 - room-planner-api - INFO - Model initialized successfully
+2025-04-05 10:09:36,205 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-05 10:09:36,250 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.8.120:5001
+2025-04-05 10:09:36,250 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 10:09:36,252 - werkzeug - INFO -  * Restarting with stat
+2025-04-05 10:09:37,414 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-05 10:09:37,414 - room-planner-api - INFO - Model initialized successfully
+2025-04-05 10:09:37,416 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-05 10:09:37,424 - werkzeug - WARNING -  * Debugger is active!
+2025-04-05 10:09:37,429 - werkzeug - INFO -  * Debugger PIN: 972-106-602
+2025-04-05 10:10:45,049 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 10:10:45] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-05 10:10:45,086 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'bedroom', 'style': 'minimalist', 'budget': 'medium'}
+2025-04-05 10:10:45,087 - RoomPlannerModel - INFO - Searching for: medium bedroom, minimalist style, medium budget
+2025-04-05 10:10:45,278 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-05 10:10:45,281 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 10:10:45] "POST /api/search HTTP/1.1" 200 -
+2025-04-05 12:49:55,691 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-05 12:49:55,692 - room-planner-api - INFO - Model initialized successfully
+2025-04-05 12:49:55,694 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-05 12:49:55,780 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.8.120:5001
+2025-04-05 12:49:55,781 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 12:49:55,784 - werkzeug - INFO -  * Restarting with stat
+2025-04-05 12:49:57,051 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-05 12:49:57,051 - room-planner-api - INFO - Model initialized successfully
+2025-04-05 12:49:57,053 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-05 12:49:57,062 - werkzeug - WARNING -  * Debugger is active!
+2025-04-05 12:49:57,067 - werkzeug - INFO -  * Debugger PIN: 972-106-602
+2025-04-05 12:52:39,819 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:52:39] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-05 12:52:39,853 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'living-room', 'style': 'modern', 'budget': 'low'}
+2025-04-05 12:52:39,854 - RoomPlannerModel - INFO - Searching for: small living-room, modern style, low budget
+2025-04-05 12:52:40,097 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-05 12:52:40,100 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:52:40] "POST /api/search HTTP/1.1" 200 -
+2025-04-05 12:55:07,966 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:55:07] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-05 12:55:08,001 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'living-room', 'style': 'modern', 'budget': 'low'}
+2025-04-05 12:55:08,001 - RoomPlannerModel - INFO - Searching for: small living-room, modern style, low budget
+2025-04-05 12:55:08,061 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-05 12:55:08,062 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:55:08] "POST /api/search HTTP/1.1" 200 -
+2025-04-05 12:58:57,110 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:58:57] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-05 12:58:57,139 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'bedroom', 'style': 'minimalist', 'budget': 'medium'}
+2025-04-05 12:58:57,140 - RoomPlannerModel - INFO - Searching for: medium bedroom, minimalist style, medium budget
+2025-04-05 12:58:57,167 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-05 12:58:57,173 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:58:57] "POST /api/search HTTP/1.1" 200 -
+2025-04-05 13:00:57,352 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 13:00:57] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-05 13:00:57,372 - room-planner-api - INFO - Search request received: {'roomSize': 'large', 'roomType': 'living-room', 'style': 'minimalist', 'budget': 'low'}
+2025-04-05 13:00:57,373 - RoomPlannerModel - INFO - Searching for: large living-room, minimalist style, low budget
+2025-04-05 13:00:57,390 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-05 13:00:57,395 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 13:00:57] "POST /api/search HTTP/1.1" 200 -
+2025-04-05 13:01:36,390 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 13:01:36] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-05 13:01:36,411 - room-planner-api - INFO - Search request received: {'roomSize': 'large', 'roomType': 'dining', 'style': 'minimalist', 'budget': 'low'}
+2025-04-05 13:01:36,411 - RoomPlannerModel - INFO - Searching for: large dining, minimalist style, low budget
+2025-04-05 13:01:36,430 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-05 13:01:36,432 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 13:01:36] "POST /api/search HTTP/1.1" 200 -
+2025-04-19 10:17:18,559 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-19 10:17:18,560 - room-planner-api - INFO - Model initialized successfully
+2025-04-19 10:17:18,562 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-19 10:17:18,670 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.20.10.3:5001
+2025-04-19 10:17:18,671 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-19 10:17:18,676 - werkzeug - INFO -  * Restarting with stat
+2025-04-19 10:17:19,832 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-19 10:17:19,833 - room-planner-api - INFO - Model initialized successfully
+2025-04-19 10:17:19,835 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-19 10:17:19,842 - werkzeug - WARNING -  * Debugger is active!
+2025-04-19 10:17:19,847 - werkzeug - INFO -  * Debugger PIN: 837-552-878
+2025-04-19 10:25:32,832 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2025 10:25:32] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-19 10:25:32,851 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'living-room', 'style': 'modern', 'budget': 'low'}
+2025-04-19 10:25:32,852 - RoomPlannerModel - INFO - Searching for: medium living-room, modern style, low budget
+2025-04-19 10:25:32,881 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-19 10:25:32,882 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2025 10:25:32] "POST /api/search HTTP/1.1" 200 -
+2025-04-19 11:51:26,931 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2025 11:51:26] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-19 11:51:26,948 - room-planner-api - INFO - Search request received: {'roomSize': 'large', 'roomType': 'living-room', 'style': 'classic', 'budget': 'medium'}
+2025-04-19 11:51:26,948 - RoomPlannerModel - INFO - Searching for: large living-room, classic style, medium budget
+2025-04-19 11:51:26,959 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-19 11:51:26,960 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2025 11:51:26] "POST /api/search HTTP/1.1" 200 -
+2025-04-21 15:44:40,231 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-21 15:44:40,231 - room-planner-api - INFO - Model initialized successfully
+2025-04-21 15:44:40,233 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-21 15:44:40,298 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.8.120:5001
+2025-04-21 15:44:40,298 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-21 15:44:40,301 - werkzeug - INFO -  * Restarting with stat
+2025-04-21 15:44:41,383 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-21 15:44:41,384 - room-planner-api - INFO - Model initialized successfully
+2025-04-21 15:44:41,385 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-21 15:44:41,393 - werkzeug - WARNING -  * Debugger is active!
+2025-04-21 15:44:41,397 - werkzeug - INFO -  * Debugger PIN: 837-552-878
+2025-04-21 15:47:24,093 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 15:47:24] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-21 15:47:24,105 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'bedroom', 'style': 'modern', 'budget': 'low'}
+2025-04-21 15:47:24,105 - RoomPlannerModel - INFO - Searching for: small bedroom, modern style, low budget
+2025-04-21 15:47:24,120 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-21 15:47:24,120 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 15:47:24] "POST /api/search HTTP/1.1" 200 -
+2025-04-21 15:47:29,948 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 15:47:29] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-21 15:47:29,957 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'bedroom', 'style': 'modern', 'budget': 'low'}
+2025-04-21 15:47:29,957 - RoomPlannerModel - INFO - Searching for: medium bedroom, modern style, low budget
+2025-04-21 15:47:29,966 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-21 15:47:29,967 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 15:47:29] "POST /api/search HTTP/1.1" 200 -
+2025-04-21 15:47:36,267 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 15:47:36] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-21 15:47:36,276 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'dining', 'style': 'modern', 'budget': 'low'}
+2025-04-21 15:47:36,276 - RoomPlannerModel - INFO - Searching for: medium dining, modern style, low budget
+2025-04-21 15:47:36,283 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-21 15:47:36,284 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 15:47:36] "POST /api/search HTTP/1.1" 200 -
+2025-04-21 15:47:40,950 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'dining', 'style': 'modern', 'budget': 'low'}
+2025-04-21 15:47:40,951 - RoomPlannerModel - INFO - Searching for: medium dining, modern style, low budget
+2025-04-21 15:47:40,959 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-21 15:47:40,960 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 15:47:40] "POST /api/search HTTP/1.1" 200 -
+2025-04-21 15:47:45,163 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 15:47:45] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-21 15:47:45,171 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'dining', 'style': 'minimalist', 'budget': 'low'}
+2025-04-21 15:47:45,172 - RoomPlannerModel - INFO - Searching for: medium dining, minimalist style, low budget
+2025-04-21 15:47:45,179 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-21 15:47:45,180 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 15:47:45] "POST /api/search HTTP/1.1" 200 -
+2025-04-21 15:47:48,711 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'dining', 'style': 'minimalist', 'budget': 'medium'}
+2025-04-21 15:47:48,711 - RoomPlannerModel - INFO - Searching for: medium dining, minimalist style, medium budget
+2025-04-21 15:47:48,718 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-21 15:47:48,718 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 15:47:48] "POST /api/search HTTP/1.1" 200 -
+2025-04-21 15:47:51,147 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 15:47:51] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-21 15:47:51,156 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'dining', 'style': 'minimalist', 'budget': 'high'}
+2025-04-21 15:47:51,156 - RoomPlannerModel - INFO - Searching for: medium dining, minimalist style, high budget
+2025-04-21 15:47:51,163 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-21 15:47:51,164 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 15:47:51] "POST /api/search HTTP/1.1" 200 -
+2025-04-21 15:48:03,899 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 15:48:03] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-21 15:48:03,907 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'bedroom', 'style': 'modern', 'budget': 'low'}
+2025-04-21 15:48:03,908 - RoomPlannerModel - INFO - Searching for: small bedroom, modern style, low budget
+2025-04-21 15:48:03,915 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-21 15:48:03,916 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 15:48:03] "POST /api/search HTTP/1.1" 200 -
+2025-04-21 15:48:20,123 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 15:48:20] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-21 15:48:20,132 - room-planner-api - INFO - Search request received: {'roomSize': 'large', 'roomType': 'living-room', 'style': 'classic', 'budget': 'medium'}
+2025-04-21 15:48:20,132 - RoomPlannerModel - INFO - Searching for: large living-room, classic style, medium budget
+2025-04-21 15:48:20,139 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-21 15:48:20,139 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 15:48:20] "POST /api/search HTTP/1.1" 200 -
+2025-04-21 15:48:24,610 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'living-room', 'style': 'classic', 'budget': 'medium'}
+2025-04-21 15:48:24,610 - RoomPlannerModel - INFO - Searching for: small living-room, classic style, medium budget
+2025-04-21 15:48:24,617 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-21 15:48:24,618 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 15:48:24] "POST /api/search HTTP/1.1" 200 -
+2025-04-21 15:49:03,092 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 15:49:03] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-21 15:49:03,100 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'living-room', 'style': 'modern', 'budget': 'medium'}
+2025-04-21 15:49:03,101 - RoomPlannerModel - INFO - Searching for: small living-room, modern style, medium budget
+2025-04-21 15:49:03,108 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-21 15:49:03,109 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2025 15:49:03] "POST /api/search HTTP/1.1" 200 -
+2025-04-23 19:24:33,950 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-23 19:24:33,950 - room-planner-api - INFO - Model initialized successfully
+2025-04-23 19:24:33,952 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-23 19:24:34,023 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.8.120:5001
+2025-04-23 19:24:34,023 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-23 19:24:34,027 - werkzeug - INFO -  * Restarting with stat
+2025-04-23 19:24:45,770 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-23 19:24:45,770 - room-planner-api - INFO - Model initialized successfully
+2025-04-23 19:24:45,772 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-23 19:24:45,780 - werkzeug - WARNING -  * Debugger is active!
+2025-04-23 19:24:45,784 - werkzeug - INFO -  * Debugger PIN: 837-552-878
+2025-04-23 19:24:58,435 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 19:24:58] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-23 19:24:58,446 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'living-room', 'style': 'classic', 'budget': 'medium'}
+2025-04-23 19:24:58,447 - RoomPlannerModel - INFO - Searching for: small living-room, classic style, medium budget
+2025-04-23 19:24:58,462 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-23 19:24:58,463 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 19:24:58] "POST /api/search HTTP/1.1" 200 -
+2025-04-23 19:25:09,400 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 19:25:09] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-23 19:25:09,409 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'living-room', 'style': 'classic', 'budget': 'medium'}
+2025-04-23 19:25:09,410 - RoomPlannerModel - INFO - Searching for: medium living-room, classic style, medium budget
+2025-04-23 19:25:09,418 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-23 19:25:09,419 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 19:25:09] "POST /api/search HTTP/1.1" 200 -
+2025-04-23 19:25:12,955 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'living-room', 'style': 'classic', 'budget': 'medium'}
+2025-04-23 19:25:12,956 - RoomPlannerModel - INFO - Searching for: medium living-room, classic style, medium budget
+2025-04-23 19:25:12,963 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-23 19:25:12,963 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 19:25:12] "POST /api/search HTTP/1.1" 200 -
+2025-04-23 19:25:18,760 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 19:25:18] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-23 19:25:18,769 - room-planner-api - INFO - Search request received: {'roomSize': 'large', 'roomType': 'living-room', 'style': 'classic', 'budget': 'medium'}
+2025-04-23 19:25:18,769 - RoomPlannerModel - INFO - Searching for: large living-room, classic style, medium budget
+2025-04-23 19:25:18,777 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-23 19:25:18,778 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 19:25:18] "POST /api/search HTTP/1.1" 200 -
+2025-04-23 19:25:33,450 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 19:25:33] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-23 19:25:33,459 - room-planner-api - INFO - Search request received: {'roomSize': 'large', 'roomType': 'living-room', 'style': 'modern', 'budget': 'low'}
+2025-04-23 19:25:33,459 - RoomPlannerModel - INFO - Searching for: large living-room, modern style, low budget
+2025-04-23 19:25:33,467 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-23 19:25:33,467 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 19:25:33] "POST /api/search HTTP/1.1" 200 -
+2025-04-23 19:26:29,633 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 19:26:29] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-23 19:26:29,644 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'living-room', 'style': 'modern', 'budget': 'medium'}
+2025-04-23 19:26:29,645 - RoomPlannerModel - INFO - Searching for: small living-room, modern style, medium budget
+2025-04-23 19:26:29,654 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-23 19:26:29,655 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 19:26:29] "POST /api/search HTTP/1.1" 200 -
+2025-04-23 20:15:52,752 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 20:15:52] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-23 20:15:52,762 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'living-room', 'style': 'modern', 'budget': 'medium'}
+2025-04-23 20:15:52,763 - RoomPlannerModel - INFO - Searching for: small living-room, modern style, medium budget
+2025-04-23 20:15:52,769 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-23 20:15:52,769 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 20:15:52] "POST /api/search HTTP/1.1" 200 -
+2025-04-23 20:16:09,073 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 20:16:09] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-23 20:16:09,082 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'living-room', 'style': 'modern', 'budget': 'medium'}
+2025-04-23 20:16:09,082 - RoomPlannerModel - INFO - Searching for: medium living-room, modern style, medium budget
+2025-04-23 20:16:09,087 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-23 20:16:09,088 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 20:16:09] "POST /api/search HTTP/1.1" 200 -
+2025-04-23 20:20:15,300 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-23 20:20:15,300 - room-planner-api - INFO - Model initialized successfully
+2025-04-23 20:20:15,302 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-23 20:20:15,331 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.8.120:5001
+2025-04-23 20:20:15,331 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-23 20:20:15,333 - werkzeug - INFO -  * Restarting with stat
+2025-04-23 20:20:16,397 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-23 20:20:16,397 - room-planner-api - INFO - Model initialized successfully
+2025-04-23 20:20:16,399 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-23 20:20:16,406 - werkzeug - WARNING -  * Debugger is active!
+2025-04-23 20:20:16,409 - werkzeug - INFO -  * Debugger PIN: 837-552-878
+2025-04-23 20:21:39,281 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 20:21:39] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-23 20:21:39,290 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'living-room', 'style': 'classic', 'budget': 'low'}
+2025-04-23 20:21:39,290 - RoomPlannerModel - INFO - Searching for: medium living-room, classic style, low budget
+2025-04-23 20:21:39,301 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-23 20:21:39,302 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 20:21:39] "POST /api/search HTTP/1.1" 200 -
+2025-04-23 21:14:10,704 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 21:14:10] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-23 21:14:10,714 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'living-room', 'style': 'classic', 'budget': 'medium'}
+2025-04-23 21:14:10,715 - RoomPlannerModel - INFO - Searching for: small living-room, classic style, medium budget
+2025-04-23 21:14:10,729 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-23 21:14:10,730 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 21:14:10] "POST /api/search HTTP/1.1" 200 -
+2025-04-23 21:14:33,023 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 21:14:33] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-23 21:14:33,033 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'living-room', 'style': 'modern', 'budget': 'medium'}
+2025-04-23 21:14:33,033 - RoomPlannerModel - INFO - Searching for: small living-room, modern style, medium budget
+2025-04-23 21:14:33,041 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-23 21:14:33,041 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 21:14:33] "POST /api/search HTTP/1.1" 200 -
+2025-04-23 21:14:54,894 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 21:14:54] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-23 21:14:54,906 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'living-room', 'style': 'modern', 'budget': 'medium'}
+2025-04-23 21:14:54,906 - RoomPlannerModel - INFO - Searching for: small living-room, modern style, medium budget
+2025-04-23 21:14:54,914 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-23 21:14:54,915 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 21:14:54] "POST /api/search HTTP/1.1" 200 -
+2025-04-23 21:15:25,265 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 21:15:25] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-23 21:15:25,274 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'bedroom', 'style': 'classic', 'budget': 'medium'}
+2025-04-23 21:15:25,274 - RoomPlannerModel - INFO - Searching for: medium bedroom, classic style, medium budget
+2025-04-23 21:15:25,284 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-23 21:15:25,285 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 21:15:25] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 00:12:41,094 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 00:12:41] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 00:12:41,115 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'living-room', 'style': 'modern', 'budget': 'medium'}
+2025-04-24 00:12:41,116 - RoomPlannerModel - INFO - Searching for: medium living-room, modern style, medium budget
+2025-04-24 00:12:41,147 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 00:12:41,150 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 00:12:41] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 13:05:15,875 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-24 13:05:15,875 - room-planner-api - INFO - Model initialized successfully
+2025-04-24 13:05:15,877 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-24 13:05:15,912 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.8.120:5001
+2025-04-24 13:05:15,913 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-24 13:05:15,915 - werkzeug - INFO -  * Restarting with stat
+2025-04-24 13:05:17,161 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-24 13:05:17,161 - room-planner-api - INFO - Model initialized successfully
+2025-04-24 13:05:17,163 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-24 13:05:17,171 - werkzeug - WARNING -  * Debugger is active!
+2025-04-24 13:05:17,176 - werkzeug - INFO -  * Debugger PIN: 837-552-878
+2025-04-24 13:05:59,493 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 13:05:59] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 13:05:59,503 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'living-room', 'style': 'modern', 'budget': 'medium'}
+2025-04-24 13:05:59,504 - RoomPlannerModel - INFO - Searching for: medium living-room, modern style, medium budget
+2025-04-24 13:05:59,518 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 13:05:59,519 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 13:05:59] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 13:06:34,396 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 13:06:34] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 13:06:34,407 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'living-room', 'style': 'classic', 'budget': 'low'}
+2025-04-24 13:06:34,408 - RoomPlannerModel - INFO - Searching for: small living-room, classic style, low budget
+2025-04-24 13:06:34,414 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 13:06:34,415 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 13:06:34] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 13:09:41,490 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 13:09:41] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 13:09:41,499 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'living-room', 'style': 'classic', 'budget': 'medium'}
+2025-04-24 13:09:41,499 - RoomPlannerModel - INFO - Searching for: medium living-room, classic style, medium budget
+2025-04-24 13:09:41,506 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 13:09:41,506 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 13:09:41] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 13:10:01,738 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 13:10:01] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 13:10:01,748 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'living-room', 'style': 'modern', 'budget': 'high'}
+2025-04-24 13:10:01,749 - RoomPlannerModel - INFO - Searching for: small living-room, modern style, high budget
+2025-04-24 13:10:01,754 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 13:10:01,755 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 13:10:01] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 13:12:36,066 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 13:12:36] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 13:12:36,075 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'living-room', 'style': 'modern', 'budget': 'medium'}
+2025-04-24 13:12:36,076 - RoomPlannerModel - INFO - Searching for: medium living-room, modern style, medium budget
+2025-04-24 13:12:36,085 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 13:12:36,085 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 13:12:36] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 13:13:31,188 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 13:13:31] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 13:13:31,197 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'living-room', 'style': 'modern', 'budget': 'medium'}
+2025-04-24 13:13:31,197 - RoomPlannerModel - INFO - Searching for: small living-room, modern style, medium budget
+2025-04-24 13:13:31,205 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 13:13:31,206 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 13:13:31] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 13:13:44,250 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 13:13:44] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 13:13:44,259 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'living-room', 'style': 'classic', 'budget': 'medium'}
+2025-04-24 13:13:44,259 - RoomPlannerModel - INFO - Searching for: medium living-room, classic style, medium budget
+2025-04-24 13:13:44,267 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 13:13:44,267 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 13:13:44] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 13:13:51,426 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 13:13:51] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 13:13:51,437 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'living-room', 'style': 'classic', 'budget': 'medium'}
+2025-04-24 13:13:51,437 - RoomPlannerModel - INFO - Searching for: small living-room, classic style, medium budget
+2025-04-24 13:13:51,447 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 13:13:51,447 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 13:13:51] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 13:13:58,483 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 13:13:58] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 13:13:58,491 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'living-room', 'style': 'classic', 'budget': 'low'}
+2025-04-24 13:13:58,491 - RoomPlannerModel - INFO - Searching for: small living-room, classic style, low budget
+2025-04-24 13:13:58,499 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 13:13:58,499 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 13:13:58] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 13:14:06,330 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 13:14:06] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 13:14:06,341 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'living-room', 'style': 'modern', 'budget': 'low'}
+2025-04-24 13:14:06,341 - RoomPlannerModel - INFO - Searching for: medium living-room, modern style, low budget
+2025-04-24 13:14:06,350 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 13:14:06,351 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 13:14:06] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 13:48:34,950 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 13:48:34] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 13:48:34,960 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'living-room', 'style': 'modern', 'budget': 'low'}
+2025-04-24 13:48:34,960 - RoomPlannerModel - INFO - Searching for: small living-room, modern style, low budget
+2025-04-24 13:48:34,967 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 13:48:34,967 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 13:48:34] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 13:49:16,542 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 13:49:16] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 13:49:16,552 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'bedroom', 'style': 'classic', 'budget': 'low'}
+2025-04-24 13:49:16,552 - RoomPlannerModel - INFO - Searching for: medium bedroom, classic style, low budget
+2025-04-24 13:49:16,559 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 13:49:16,559 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 13:49:16] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 13:50:41,134 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 13:50:41] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 13:50:41,144 - room-planner-api - INFO - Search request received: {'roomSize': 'large', 'roomType': 'living-room', 'style': 'modern', 'budget': 'low'}
+2025-04-24 13:50:41,144 - RoomPlannerModel - INFO - Searching for: large living-room, modern style, low budget
+2025-04-24 13:50:41,151 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 13:50:41,151 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 13:50:41] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 15:00:39,519 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 15:00:39] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 15:00:39,538 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'bedroom', 'style': 'modern', 'budget': 'low'}
+2025-04-24 15:00:39,539 - RoomPlannerModel - INFO - Searching for: medium bedroom, modern style, low budget
+2025-04-24 15:00:39,548 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 15:00:39,549 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 15:00:39] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 15:14:21,492 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 15:14:21] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 15:14:21,510 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'bedroom', 'style': 'modern', 'budget': 'medium'}
+2025-04-24 15:14:21,510 - RoomPlannerModel - INFO - Searching for: small bedroom, modern style, medium budget
+2025-04-24 15:14:21,520 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 15:14:21,521 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 15:14:21] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 15:14:43,187 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 15:14:43] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 15:14:43,205 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'dining', 'style': 'classic', 'budget': 'medium'}
+2025-04-24 15:14:43,205 - RoomPlannerModel - INFO - Searching for: small dining, classic style, medium budget
+2025-04-24 15:14:43,216 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 15:14:43,217 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 15:14:43] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 15:18:01,076 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 15:18:01] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 15:18:01,092 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'living-room', 'style': 'modern', 'budget': 'medium'}
+2025-04-24 15:18:01,092 - RoomPlannerModel - INFO - Searching for: medium living-room, modern style, medium budget
+2025-04-24 15:18:01,102 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 15:18:01,103 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 15:18:01] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 15:30:43,788 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 15:30:43] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 15:30:43,805 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'living-room', 'style': 'modern', 'budget': 'medium'}
+2025-04-24 15:30:43,805 - RoomPlannerModel - INFO - Searching for: small living-room, modern style, medium budget
+2025-04-24 15:30:43,816 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 15:30:43,817 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 15:30:43] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 15:30:56,749 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 15:30:56] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 15:30:56,765 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'bedroom', 'style': 'classic', 'budget': 'high'}
+2025-04-24 15:30:56,766 - RoomPlannerModel - INFO - Searching for: medium bedroom, classic style, high budget
+2025-04-24 15:30:56,777 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 15:30:56,778 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 15:30:56] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 15:32:27,116 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 15:32:27] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 15:32:27,134 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'bedroom', 'style': 'minimalist', 'budget': 'high'}
+2025-04-24 15:32:27,134 - RoomPlannerModel - INFO - Searching for: medium bedroom, minimalist style, high budget
+2025-04-24 15:32:27,144 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 15:32:27,145 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 15:32:27] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 15:43:02,051 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 15:43:02] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 15:43:02,068 - room-planner-api - INFO - Search request received: {'roomSize': 'large', 'roomType': 'bedroom', 'style': 'modern', 'budget': 'low'}
+2025-04-24 15:43:02,069 - RoomPlannerModel - INFO - Searching for: large bedroom, modern style, low budget
+2025-04-24 15:43:02,083 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 15:43:02,084 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 15:43:02] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 15:43:12,395 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 15:43:12] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 15:43:12,412 - room-planner-api - INFO - Search request received: {'roomSize': 'large', 'roomType': 'bedroom', 'style': 'minimalist', 'budget': 'low'}
+2025-04-24 15:43:12,412 - RoomPlannerModel - INFO - Searching for: large bedroom, minimalist style, low budget
+2025-04-24 15:43:12,426 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 15:43:12,427 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 15:43:12] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 15:43:16,155 - room-planner-api - INFO - Search request received: {'roomSize': 'large', 'roomType': 'bedroom', 'style': 'modern', 'budget': 'low'}
+2025-04-24 15:43:16,156 - RoomPlannerModel - INFO - Searching for: large bedroom, modern style, low budget
+2025-04-24 15:43:16,165 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 15:43:16,169 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 15:43:16] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 15:43:20,281 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 15:43:20] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 15:43:20,295 - room-planner-api - INFO - Search request received: {'roomSize': 'large', 'roomType': 'bedroom', 'style': 'classic', 'budget': 'low'}
+2025-04-24 15:43:20,296 - RoomPlannerModel - INFO - Searching for: large bedroom, classic style, low budget
+2025-04-24 15:43:20,306 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 15:43:20,307 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 15:43:20] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 15:43:25,139 - room-planner-api - INFO - Search request received: {'roomSize': 'large', 'roomType': 'bedroom', 'style': 'classic', 'budget': 'medium'}
+2025-04-24 15:43:25,140 - RoomPlannerModel - INFO - Searching for: large bedroom, classic style, medium budget
+2025-04-24 15:43:25,150 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 15:43:25,151 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 15:43:25] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 16:06:18,525 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 16:06:18] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 16:06:18,546 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'living-room', 'style': 'modern', 'budget': 'low'}
+2025-04-24 16:06:18,546 - RoomPlannerModel - INFO - Searching for: small living-room, modern style, low budget
+2025-04-24 16:06:18,561 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 16:06:18,562 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 16:06:18] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 16:06:23,555 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 16:06:23] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 16:06:23,568 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'living-room', 'style': 'classic', 'budget': 'low'}
+2025-04-24 16:06:23,570 - RoomPlannerModel - INFO - Searching for: small living-room, classic style, low budget
+2025-04-24 16:06:23,584 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 16:06:23,585 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 16:06:23] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 16:06:29,554 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 16:06:29] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 16:06:29,573 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'living-room', 'style': 'minimalist', 'budget': 'low'}
+2025-04-24 16:06:29,573 - RoomPlannerModel - INFO - Searching for: small living-room, minimalist style, low budget
+2025-04-24 16:06:29,585 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 16:06:29,586 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 16:06:29] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 16:06:35,730 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 16:06:35] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 16:06:35,748 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'living-room', 'style': 'modern', 'budget': 'low'}
+2025-04-24 16:06:35,748 - RoomPlannerModel - INFO - Searching for: small living-room, modern style, low budget
+2025-04-24 16:06:35,759 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 16:06:35,760 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 16:06:35] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 16:06:41,386 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 16:06:41] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 16:06:41,404 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'living-room', 'style': 'modern', 'budget': 'medium'}
+2025-04-24 16:06:41,404 - RoomPlannerModel - INFO - Searching for: small living-room, modern style, medium budget
+2025-04-24 16:06:41,417 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 16:06:41,418 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 16:06:41] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 16:06:46,819 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 16:06:46] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 16:06:46,837 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'living-room', 'style': 'modern', 'budget': 'high'}
+2025-04-24 16:06:46,838 - RoomPlannerModel - INFO - Searching for: small living-room, modern style, high budget
+2025-04-24 16:06:46,848 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 16:06:46,849 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 16:06:46] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 16:06:56,585 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 16:06:56] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 16:06:56,600 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'bedroom', 'style': 'modern', 'budget': 'high'}
+2025-04-24 16:06:56,600 - RoomPlannerModel - INFO - Searching for: small bedroom, modern style, high budget
+2025-04-24 16:06:56,614 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 16:06:56,616 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 16:06:56] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 16:07:02,450 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 16:07:02] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 16:07:02,469 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'bedroom', 'style': 'classic', 'budget': 'high'}
+2025-04-24 16:07:02,469 - RoomPlannerModel - INFO - Searching for: small bedroom, classic style, high budget
+2025-04-24 16:07:02,480 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 16:07:02,481 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 16:07:02] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 16:07:04,237 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'bedroom', 'style': 'classic', 'budget': 'high'}
+2025-04-24 16:07:04,237 - RoomPlannerModel - INFO - Searching for: small bedroom, classic style, high budget
+2025-04-24 16:07:04,247 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 16:07:04,248 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 16:07:04] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 16:07:08,666 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 16:07:08] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 16:07:08,681 - room-planner-api - INFO - Search request received: {'roomSize': 'large', 'roomType': 'bedroom', 'style': 'minimalist', 'budget': 'high'}
+2025-04-24 16:07:08,682 - RoomPlannerModel - INFO - Searching for: large bedroom, minimalist style, high budget
+2025-04-24 16:07:08,691 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 16:07:08,692 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 16:07:08] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 16:07:13,268 - room-planner-api - INFO - Search request received: {'roomSize': 'large', 'roomType': 'bedroom', 'style': 'minimalist', 'budget': 'low'}
+2025-04-24 16:07:13,268 - RoomPlannerModel - INFO - Searching for: large bedroom, minimalist style, low budget
+2025-04-24 16:07:13,278 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 16:07:13,279 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 16:07:13] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 16:08:44,539 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 16:08:44] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 16:08:44,553 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'bedroom', 'style': 'minimalist', 'budget': 'low'}
+2025-04-24 16:08:44,553 - RoomPlannerModel - INFO - Searching for: small bedroom, minimalist style, low budget
+2025-04-24 16:08:44,569 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 16:08:44,570 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 16:08:44] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 16:08:48,774 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'bedroom', 'style': 'minimalist', 'budget': 'low'}
+2025-04-24 16:08:48,774 - RoomPlannerModel - INFO - Searching for: medium bedroom, minimalist style, low budget
+2025-04-24 16:08:48,786 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 16:08:48,786 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 16:08:48] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 16:08:53,913 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 16:08:53] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 16:08:53,926 - room-planner-api - INFO - Search request received: {'roomSize': 'large', 'roomType': 'bedroom', 'style': 'minimalist', 'budget': 'low'}
+2025-04-24 16:08:53,927 - RoomPlannerModel - INFO - Searching for: large bedroom, minimalist style, low budget
+2025-04-24 16:08:53,937 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 16:08:53,937 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 16:08:53] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 16:09:13,146 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 16:09:13] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 16:09:13,163 - room-planner-api - INFO - Search request received: {'roomSize': 'large', 'roomType': 'bedroom', 'style': 'minimalist', 'budget': 'medium'}
+2025-04-24 16:09:13,164 - RoomPlannerModel - INFO - Searching for: large bedroom, minimalist style, medium budget
+2025-04-24 16:09:13,176 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 16:09:13,177 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 16:09:13] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 16:09:18,307 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 16:09:18] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 16:09:18,326 - room-planner-api - INFO - Search request received: {'roomSize': 'large', 'roomType': 'bedroom', 'style': 'minimalist', 'budget': 'medium'}
+2025-04-24 16:09:18,327 - RoomPlannerModel - INFO - Searching for: large bedroom, minimalist style, medium budget
+2025-04-24 16:09:18,336 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 16:09:18,337 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 16:09:18] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 16:09:23,230 - room-planner-api - INFO - Search request received: {'roomSize': 'large', 'roomType': 'bedroom', 'style': 'minimalist', 'budget': 'high'}
+2025-04-24 16:09:23,231 - RoomPlannerModel - INFO - Searching for: large bedroom, minimalist style, high budget
+2025-04-24 16:09:23,242 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 16:09:23,243 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 16:09:23] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 16:09:30,434 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 16:09:30] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 16:09:30,453 - room-planner-api - INFO - Search request received: {'roomSize': 'large', 'roomType': 'living-room', 'style': 'minimalist', 'budget': 'high'}
+2025-04-24 16:09:30,454 - RoomPlannerModel - INFO - Searching for: large living-room, minimalist style, high budget
+2025-04-24 16:09:30,463 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 16:09:30,466 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 16:09:30] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 16:10:21,033 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 16:10:21] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 16:10:21,045 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'bedroom', 'style': 'modern', 'budget': 'medium'}
+2025-04-24 16:10:21,046 - RoomPlannerModel - INFO - Searching for: medium bedroom, modern style, medium budget
+2025-04-24 16:10:21,058 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 16:10:21,059 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 16:10:21] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 16:10:27,585 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 16:10:27] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 16:10:27,602 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'dining', 'style': 'modern', 'budget': 'medium'}
+2025-04-24 16:10:27,602 - RoomPlannerModel - INFO - Searching for: medium dining, modern style, medium budget
+2025-04-24 16:10:27,611 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 16:10:27,612 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 16:10:27] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 16:10:49,041 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 16:10:49] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 16:10:49,054 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'dining', 'style': 'minimalist', 'budget': 'medium'}
+2025-04-24 16:10:49,055 - RoomPlannerModel - INFO - Searching for: medium dining, minimalist style, medium budget
+2025-04-24 16:10:49,067 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 16:10:49,068 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 16:10:49] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 18:09:58,195 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 18:09:58] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 18:09:58,207 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'bedroom', 'style': 'modern', 'budget': 'medium'}
+2025-04-24 18:09:58,207 - RoomPlannerModel - INFO - Searching for: small bedroom, modern style, medium budget
+2025-04-24 18:09:58,223 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 18:09:58,223 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 18:09:58] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 18:24:55,165 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 18:24:55] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 18:24:55,174 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'living-room', 'style': 'modern', 'budget': 'medium'}
+2025-04-24 18:24:55,174 - RoomPlannerModel - INFO - Searching for: small living-room, modern style, medium budget
+2025-04-24 18:24:55,180 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 18:24:55,181 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 18:24:55] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 18:24:59,776 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'dining', 'style': 'modern', 'budget': 'medium'}
+2025-04-24 18:24:59,776 - RoomPlannerModel - INFO - Searching for: small dining, modern style, medium budget
+2025-04-24 18:24:59,781 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 18:24:59,782 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 18:24:59] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 19:31:14,074 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 19:31:14] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 19:31:14,086 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'dining', 'style': 'modern', 'budget': 'medium'}
+2025-04-24 19:31:14,087 - RoomPlannerModel - INFO - Searching for: medium dining, modern style, medium budget
+2025-04-24 19:31:14,106 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 19:31:14,107 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 19:31:14] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 19:31:26,755 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 19:31:26] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 19:31:26,764 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'living-room', 'style': 'modern', 'budget': 'medium'}
+2025-04-24 19:31:26,764 - RoomPlannerModel - INFO - Searching for: medium living-room, modern style, medium budget
+2025-04-24 19:31:26,770 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 19:31:26,771 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 19:31:26] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 19:31:31,375 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'living-room', 'style': 'modern', 'budget': 'medium'}
+2025-04-24 19:31:31,375 - RoomPlannerModel - INFO - Searching for: medium living-room, modern style, medium budget
+2025-04-24 19:31:31,381 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 19:31:31,382 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 19:31:31] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 19:31:34,754 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 19:31:34] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 19:31:34,765 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'living-room', 'style': 'modern', 'budget': 'low'}
+2025-04-24 19:31:34,765 - RoomPlannerModel - INFO - Searching for: medium living-room, modern style, low budget
+2025-04-24 19:31:34,771 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 19:31:34,771 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 19:31:34] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 19:32:00,682 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 19:32:00] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 19:32:00,691 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'living-room', 'style': 'modern', 'budget': 'medium'}
+2025-04-24 19:32:00,691 - RoomPlannerModel - INFO - Searching for: medium living-room, modern style, medium budget
+2025-04-24 19:32:00,698 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 19:32:00,698 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 19:32:00] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 19:32:07,770 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 19:32:07] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 19:32:07,779 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'living-room', 'style': 'modern', 'budget': 'high'}
+2025-04-24 19:32:07,779 - RoomPlannerModel - INFO - Searching for: medium living-room, modern style, high budget
+2025-04-24 19:32:07,785 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 19:32:07,785 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 19:32:07] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 19:32:11,350 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'living-room', 'style': 'modern', 'budget': 'low'}
+2025-04-24 19:32:11,351 - RoomPlannerModel - INFO - Searching for: medium living-room, modern style, low budget
+2025-04-24 19:32:11,357 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 19:32:11,357 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 19:32:11] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 19:32:15,018 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 19:32:15] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 19:32:15,028 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'living-room', 'style': 'modern', 'budget': 'medium'}
+2025-04-24 19:32:15,028 - RoomPlannerModel - INFO - Searching for: medium living-room, modern style, medium budget
+2025-04-24 19:32:15,034 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 19:32:15,034 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 19:32:15] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 19:32:15,230 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'living-room', 'style': 'modern', 'budget': 'medium'}
+2025-04-24 19:32:15,230 - RoomPlannerModel - INFO - Searching for: medium living-room, modern style, medium budget
+2025-04-24 19:32:15,236 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 19:32:15,236 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 19:32:15] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 19:32:18,662 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'living-room', 'style': 'modern', 'budget': 'high'}
+2025-04-24 19:32:18,662 - RoomPlannerModel - INFO - Searching for: medium living-room, modern style, high budget
+2025-04-24 19:32:18,668 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 19:32:18,669 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 19:32:18] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 19:32:32,026 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 19:32:32] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 19:32:32,034 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'living-room', 'style': 'modern', 'budget': 'low'}
+2025-04-24 19:32:32,035 - RoomPlannerModel - INFO - Searching for: medium living-room, modern style, low budget
+2025-04-24 19:32:32,040 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 19:32:32,040 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 19:32:32] "POST /api/search HTTP/1.1" 200 -
+2025-04-24 21:55:32,638 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 21:55:32] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-24 21:55:32,649 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'bedroom', 'style': 'classic', 'budget': 'medium'}
+2025-04-24 21:55:32,650 - RoomPlannerModel - INFO - Searching for: small bedroom, classic style, medium budget
+2025-04-24 21:55:32,665 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-24 21:55:32,665 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 21:55:32] "POST /api/search HTTP/1.1" 200 -
+2025-04-25 00:25:11,093 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-25 00:25:11,093 - room-planner-api - INFO - Model initialized successfully
+2025-04-25 00:25:11,095 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-25 00:25:11,164 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.2:5001
+2025-04-25 00:25:11,165 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-25 00:25:11,168 - werkzeug - INFO -  * Restarting with stat
+2025-04-25 00:25:12,241 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-25 00:25:12,241 - room-planner-api - INFO - Model initialized successfully
+2025-04-25 00:25:12,243 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-25 00:25:12,250 - werkzeug - WARNING -  * Debugger is active!
+2025-04-25 00:25:12,253 - werkzeug - INFO -  * Debugger PIN: 837-552-878
+2025-04-25 00:27:12,868 - werkzeug - INFO - 127.0.0.1 - - [25/Apr/2025 00:27:12] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-25 00:27:12,880 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'dining', 'style': 'classic', 'budget': 'low'}
+2025-04-25 00:27:12,880 - RoomPlannerModel - INFO - Searching for: small dining, classic style, low budget
+2025-04-25 00:27:12,899 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-25 00:27:12,900 - werkzeug - INFO - 127.0.0.1 - - [25/Apr/2025 00:27:12] "POST /api/search HTTP/1.1" 200 -
+2025-04-25 00:28:15,730 - werkzeug - INFO - 127.0.0.1 - - [25/Apr/2025 00:28:15] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-25 00:28:15,739 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'living-room', 'style': 'classic', 'budget': 'low'}
+2025-04-25 00:28:15,740 - RoomPlannerModel - INFO - Searching for: small living-room, classic style, low budget
+2025-04-25 00:28:15,747 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-25 00:28:15,747 - werkzeug - INFO - 127.0.0.1 - - [25/Apr/2025 00:28:15] "POST /api/search HTTP/1.1" 200 -
+2025-04-25 00:28:27,346 - werkzeug - INFO - 127.0.0.1 - - [25/Apr/2025 00:28:27] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-25 00:28:27,356 - room-planner-api - INFO - Search request received: {'roomSize': 'medium', 'roomType': 'living-room', 'style': 'modern', 'budget': 'low'}
+2025-04-25 00:28:27,356 - RoomPlannerModel - INFO - Searching for: medium living-room, modern style, low budget
+2025-04-25 00:28:27,365 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-25 00:28:27,365 - werkzeug - INFO - 127.0.0.1 - - [25/Apr/2025 00:28:27] "POST /api/search HTTP/1.1" 200 -
+2025-04-25 16:30:21,977 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-25 16:30:21,978 - room-planner-api - INFO - Model initialized successfully
+2025-04-25 16:30:21,979 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-25 16:30:22,018 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.8.120:5001
+2025-04-25 16:30:22,018 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-25 16:30:22,020 - werkzeug - INFO -  * Restarting with stat
+2025-04-25 16:30:23,039 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-25 16:30:23,040 - room-planner-api - INFO - Model initialized successfully
+2025-04-25 16:30:23,041 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-25 16:30:23,049 - werkzeug - WARNING -  * Debugger is active!
+2025-04-25 16:30:23,054 - werkzeug - INFO -  * Debugger PIN: 972-106-602
+2025-04-25 16:31:45,984 - werkzeug - INFO - 127.0.0.1 - - [25/Apr/2025 16:31:45] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-25 16:31:45,996 - room-planner-api - INFO - Search request received: {'roomSize': 'large', 'roomType': 'living-room', 'style': 'modern', 'budget': 'high'}
+2025-04-25 16:31:45,996 - RoomPlannerModel - INFO - Searching for: large living-room, modern style, high budget
+2025-04-25 16:31:46,020 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-25 16:31:46,021 - werkzeug - INFO - 127.0.0.1 - - [25/Apr/2025 16:31:46] "POST /api/search HTTP/1.1" 200 -
+2025-04-25 19:40:20,241 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-25 19:40:20,241 - room-planner-api - INFO - Model initialized successfully
+2025-04-25 19:40:20,243 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-25 19:40:20,272 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.8.120:5001
+2025-04-25 19:40:20,272 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-25 19:40:20,274 - werkzeug - INFO -  * Restarting with stat
+2025-04-25 19:40:21,303 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-04-25 19:40:21,303 - room-planner-api - INFO - Model initialized successfully
+2025-04-25 19:40:21,304 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-04-25 19:40:21,312 - werkzeug - WARNING -  * Debugger is active!
+2025-04-25 19:40:21,315 - werkzeug - INFO -  * Debugger PIN: 972-106-602
+2025-04-25 20:46:58,935 - werkzeug - INFO - 127.0.0.1 - - [25/Apr/2025 20:46:58] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-25 20:46:58,949 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'living-room', 'style': 'modern', 'budget': 'low'}
+2025-04-25 20:46:58,950 - RoomPlannerModel - INFO - Searching for: small living-room, modern style, low budget
+2025-04-25 20:46:58,983 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-25 20:46:58,984 - werkzeug - INFO - 127.0.0.1 - - [25/Apr/2025 20:46:58] "POST /api/search HTTP/1.1" 200 -
+2025-04-25 20:57:34,317 - werkzeug - INFO - 127.0.0.1 - - [25/Apr/2025 20:57:34] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-25 20:57:34,327 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'bedroom', 'style': 'classic', 'budget': 'medium'}
+2025-04-25 20:57:34,327 - RoomPlannerModel - INFO - Searching for: small bedroom, classic style, medium budget
+2025-04-25 20:57:34,335 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-25 20:57:34,335 - werkzeug - INFO - 127.0.0.1 - - [25/Apr/2025 20:57:34] "POST /api/search HTTP/1.1" 200 -
+2025-04-25 21:03:50,328 - werkzeug - INFO - 127.0.0.1 - - [25/Apr/2025 21:03:50] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-04-25 21:03:50,338 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'bedroom', 'style': 'classic', 'budget': 'medium'}
+2025-04-25 21:03:50,338 - RoomPlannerModel - INFO - Searching for: small bedroom, classic style, medium budget
+2025-04-25 21:03:50,345 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-04-25 21:03:50,345 - werkzeug - INFO - 127.0.0.1 - - [25/Apr/2025 21:03:50] "POST /api/search HTTP/1.1" 200 -
+2025-12-11 16:49:30,619 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-12-11 16:49:30,619 - room-planner-api - INFO - Model initialized successfully
+2025-12-11 16:49:30,620 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-12-11 16:49:30,738 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.43.219:5001
+2025-12-11 16:49:30,739 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-11 16:49:30,741 - werkzeug - INFO -  * Restarting with stat
+2025-12-11 16:49:33,202 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-12-11 16:49:33,202 - room-planner-api - INFO - Model initialized successfully
+2025-12-11 16:49:33,217 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-12-11 16:49:33,228 - werkzeug - WARNING -  * Debugger is active!
+2025-12-11 16:49:33,240 - werkzeug - INFO -  * Debugger PIN: 106-200-135
+2025-12-11 17:02:06,832 - werkzeug - INFO - 127.0.0.1 - - [11/Dec/2025 17:02:06] "[31m[1mGET /api/search HTTP/1.1[0m" 405 -
+2025-12-11 17:03:09,877 - room-planner-api - INFO - Search request received: {'roomSize': 'small', 'roomType': 'living-room', 'style': 'modern', 'budget': 'low'}
+2025-12-11 17:03:09,880 - RoomPlannerModel - INFO - Searching for: small living-room, modern style, low budget
+2025-12-11 17:03:10,786 - RoomPlannerModel - INFO - Found 5 suggestions
+2025-12-11 17:03:10,816 - werkzeug - INFO - 127.0.0.1 - - [11/Dec/2025 17:03:10] "POST /api/search HTTP/1.1" 200 -
+2025-12-11 17:09:22,412 - werkzeug - INFO -  * Detected change in 'D:\\Client test level project\\thilina\\Furniture-Web-Model-Backend\\evaluate_model.py', reloading
+2025-12-11 17:09:27,273 - werkzeug - INFO -  * Restarting with stat
+2025-12-11 17:09:43,319 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-12-11 17:09:43,332 - room-planner-api - INFO - Model initialized successfully
+2025-12-11 17:09:43,337 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-12-11 17:09:43,353 - werkzeug - WARNING -  * Debugger is active!
+2025-12-11 17:09:43,372 - werkzeug - INFO -  * Debugger PIN: 106-200-135
+2025-12-11 17:10:55,412 - werkzeug - INFO -  * Detected change in 'D:\\Client test level project\\thilina\\Furniture-Web-Model-Backend\\evaluate_model.py', reloading
+2025-12-11 17:10:56,825 - werkzeug - INFO -  * Restarting with stat
+2025-12-11 17:11:06,856 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-12-11 17:11:06,857 - room-planner-api - INFO - Model initialized successfully
+2025-12-11 17:11:06,859 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-12-11 17:11:07,100 - werkzeug - WARNING -  * Debugger is active!
+2025-12-11 17:11:07,151 - werkzeug - INFO -  * Debugger PIN: 106-200-135
+2025-12-11 17:11:15,689 - werkzeug - INFO -  * Detected change in 'D:\\Client test level project\\thilina\\Furniture-Web-Model-Backend\\evaluate_model.py', reloading
+2025-12-11 17:11:15,910 - werkzeug - INFO -  * Restarting with stat
+2025-12-11 17:11:18,122 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-12-11 17:11:18,123 - room-planner-api - INFO - Model initialized successfully
+2025-12-11 17:11:18,126 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-12-11 17:11:18,143 - werkzeug - WARNING -  * Debugger is active!
+2025-12-11 17:11:18,153 - werkzeug - INFO -  * Debugger PIN: 106-200-135
+2025-12-11 17:27:24,327 - werkzeug - INFO -  * Detected change in 'D:\\Client test level project\\thilina\\Furniture-Web-Model-Backend\\evaluate_model.py', reloading
+2025-12-11 17:27:25,802 - werkzeug - INFO -  * Restarting with stat
+2025-12-11 17:27:35,225 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-12-11 17:27:35,226 - room-planner-api - INFO - Model initialized successfully
+2025-12-11 17:27:35,228 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-12-11 17:27:35,259 - werkzeug - WARNING -  * Debugger is active!
+2025-12-11 17:27:35,264 - werkzeug - INFO -  * Debugger PIN: 106-200-135
+2025-12-11 17:27:40,542 - werkzeug - INFO -  * Detected change in 'D:\\Client test level project\\thilina\\Furniture-Web-Model-Backend\\evaluate_model.py', reloading
+2025-12-11 17:27:41,027 - werkzeug - INFO -  * Restarting with stat
+2025-12-11 17:27:43,286 - RoomPlannerModel - INFO - Loaded feature matrix from cache
+2025-12-11 17:27:43,286 - room-planner-api - INFO - Model initialized successfully
+2025-12-11 17:27:43,286 - room-planner-api - INFO - Starting server on port 5001, debug mode: True
+2025-12-11 17:27:43,286 - werkzeug - WARNING -  * Debugger is active!
+2025-12-11 17:27:43,301 - werkzeug - INFO -  * Debugger PIN: 106-200-135
+2025-12-13 09:10:03,420 - RoomPlannerModel - ERROR - Database load error: Execution failed on sql '
+                SELECT id, name, description, price, image, 
+                       room_size, room_type, style, budget_range 
+                FROM furniture
+            ': (1146, "Table 'kavindu_ecommerce.furniture' doesn't exist")
+2025-12-13 09:10:03,457 - room-planner-api - ERROR - Failed to initialize model: Failed to load data from database: Execution failed on sql '
+                SELECT id, name, description, price, image, 
+                       room_size, room_type, style, budget_range 
+                FROM furniture
+            ': (1146, "Table 'kavindu_ecommerce.furniture' doesn't exist")
+2025-12-13 09:10:03,559 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.43.219:5001
+2025-12-13 09:10:03,565 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-13 10:28:13,923 - RoomPlannerModel - ERROR - Database load error: Index contains duplicate entries, cannot reshape
+2025-12-13 10:28:13,923 - room-planner-api - ERROR - Failed to initialize model: Failed to load data from database: Index contains duplicate entries, cannot reshape
+2025-12-13 10:28:13,956 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.43.219:5001
+2025-12-13 10:28:13,959 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-13 10:28:35,944 - RoomPlannerModel - ERROR - Database load error: Index contains duplicate entries, cannot reshape
+2025-12-13 10:28:35,945 - room-planner-api - ERROR - Failed to initialize model: Failed to load data from database: Index contains duplicate entries, cannot reshape
+2025-12-13 10:28:35,958 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.43.219:5001
+2025-12-13 10:28:35,959 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-13 12:48:07,060 - RoomPlannerModel - INFO - Successfully loaded 4 products for room planning
+2025-12-13 12:48:07,098 - room-planner-api - INFO - Room Planner Model initialized successfully with MySQL
+2025-12-13 12:48:07,117 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.43.219:5001
+2025-12-13 12:48:07,117 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-13 12:58:27,479 - RoomPlannerModel - INFO - Successfully loaded 4 products for room planning
+2025-12-13 12:58:27,506 - room-planner-api - INFO - Room Planner Model initialized successfully with MySQL
+2025-12-13 12:58:27,526 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.43.219:5001
+2025-12-13 12:58:27,528 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-13 13:01:06,420 - werkzeug - INFO - 127.0.0.1 - - [13/Dec/2025 13:01:06] "GET /api/health HTTP/1.1" 200 -
+2025-12-13 13:02:23,710 - RoomPlannerModel - INFO - Successfully loaded 4 products for room planning
+2025-12-13 13:02:23,716 - werkzeug - INFO - 127.0.0.1 - - [13/Dec/2025 13:02:23] "GET /api/filters HTTP/1.1" 200 -
+2025-12-13 13:13:45,657 - RoomPlannerModel - INFO - Successfully loaded 4 products for room planning
+2025-12-13 13:13:45,904 - werkzeug - INFO - 127.0.0.1 - - [13/Dec/2025 13:13:45] "POST /api/search HTTP/1.1" 200 -
+2025-12-13 13:15:18,022 - RoomPlannerModel - INFO - Successfully loaded 4 products for room planning
+2025-12-13 13:15:18,347 - werkzeug - INFO - 127.0.0.1 - - [13/Dec/2025 13:15:18] "POST /api/search HTTP/1.1" 200 -
+2025-12-13 13:17:44,277 - RoomPlannerModel - INFO - Successfully loaded 4 products for room planning
+2025-12-13 13:17:44,296 - werkzeug - INFO - 127.0.0.1 - - [13/Dec/2025 13:17:44] "POST /api/search HTTP/1.1" 200 -
+2025-12-13 21:50:17,293 - werkzeug - INFO - 127.0.0.1 - - [13/Dec/2025 21:50:17] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-13 21:50:18,176 - RoomPlannerModel - INFO - Successfully loaded 4 products for room planning
+2025-12-13 21:50:18,272 - werkzeug - INFO - 127.0.0.1 - - [13/Dec/2025 21:50:18] "POST /api/search HTTP/1.1" 200 -
+2025-12-13 21:50:55,889 - werkzeug - INFO - 127.0.0.1 - - [13/Dec/2025 21:50:55] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-13 21:50:57,952 - RoomPlannerModel - INFO - Successfully loaded 4 products for room planning
+2025-12-13 21:50:58,010 - werkzeug - INFO - 127.0.0.1 - - [13/Dec/2025 21:50:58] "POST /api/search HTTP/1.1" 200 -
+2025-12-13 21:51:08,990 - werkzeug - INFO - 127.0.0.1 - - [13/Dec/2025 21:51:08] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-13 21:51:09,458 - RoomPlannerModel - INFO - Successfully loaded 4 products for room planning
+2025-12-13 21:51:09,519 - werkzeug - INFO - 127.0.0.1 - - [13/Dec/2025 21:51:09] "POST /api/search HTTP/1.1" 200 -
+2025-12-13 21:51:22,359 - werkzeug - INFO - 127.0.0.1 - - [13/Dec/2025 21:51:22] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-13 21:51:22,804 - RoomPlannerModel - INFO - Successfully loaded 4 products for room planning
+2025-12-13 21:51:22,826 - werkzeug - INFO - 127.0.0.1 - - [13/Dec/2025 21:51:22] "POST /api/search HTTP/1.1" 200 -
+2025-12-13 21:51:29,435 - werkzeug - INFO - 127.0.0.1 - - [13/Dec/2025 21:51:29] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-13 21:51:29,834 - RoomPlannerModel - INFO - Successfully loaded 4 products for room planning
+2025-12-13 21:51:29,855 - werkzeug - INFO - 127.0.0.1 - - [13/Dec/2025 21:51:29] "POST /api/search HTTP/1.1" 200 -
+2025-12-13 21:51:39,607 - werkzeug - INFO - 127.0.0.1 - - [13/Dec/2025 21:51:39] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-13 21:51:40,052 - RoomPlannerModel - INFO - Successfully loaded 4 products for room planning
+2025-12-13 21:51:40,067 - werkzeug - INFO - 127.0.0.1 - - [13/Dec/2025 21:51:40] "POST /api/search HTTP/1.1" 200 -
+2025-12-13 21:51:46,445 - RoomPlannerModel - INFO - Successfully loaded 4 products for room planning
+2025-12-13 21:51:46,461 - werkzeug - INFO - 127.0.0.1 - - [13/Dec/2025 21:51:46] "POST /api/search HTTP/1.1" 200 -
+2025-12-13 22:02:32,911 - werkzeug - INFO - 127.0.0.1 - - [13/Dec/2025 22:02:32] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-13 22:02:33,602 - RoomPlannerModel - INFO - Successfully loaded 4 products for room planning
+2025-12-13 22:02:33,656 - werkzeug - INFO - 127.0.0.1 - - [13/Dec/2025 22:02:33] "POST /api/search HTTP/1.1" 200 -
+2025-12-17 11:55:58,409 - RoomPlannerModel - INFO - Successfully loaded 4 products for room planning
+2025-12-17 11:55:58,513 - room-planner-api - INFO - Room Planner Model initialized successfully with MySQL
+2025-12-17 11:55:58,592 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.43.219:5001
+2025-12-17 11:55:58,608 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-17 12:31:04,077 - RoomPlannerModel - INFO - Successfully loaded 4 products for room planning
+2025-12-17 12:31:04,129 - room-planner-api - INFO - Room Planner Model initialized successfully with MySQL
+2025-12-17 12:31:04,163 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.43.219:5001
+2025-12-17 12:31:04,170 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-17 14:40:44,495 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2025 14:40:44] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-17 14:40:44,798 - RoomPlannerModel - INFO - Successfully loaded 4 products for room planning
+2025-12-17 14:40:44,856 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2025 14:40:44] "POST /api/search HTTP/1.1" 200 -
+2025-12-17 14:43:12,235 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2025 14:43:12] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-17 14:43:12,587 - RoomPlannerModel - INFO - Successfully loaded 4 products for room planning
+2025-12-17 14:43:12,607 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2025 14:43:12] "POST /api/search HTTP/1.1" 200 -
+2025-12-17 14:43:24,572 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2025 14:43:24] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-17 14:43:24,904 - RoomPlannerModel - INFO - Successfully loaded 4 products for room planning
+2025-12-17 14:43:24,922 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2025 14:43:24] "POST /api/search HTTP/1.1" 200 -
+2025-12-17 14:43:32,170 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2025 14:43:32] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-17 14:43:32,542 - RoomPlannerModel - INFO - Successfully loaded 4 products for room planning
+2025-12-17 14:43:32,554 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2025 14:43:32] "POST /api/search HTTP/1.1" 200 -
+2025-12-17 14:43:36,728 - RoomPlannerModel - INFO - Successfully loaded 4 products for room planning
+2025-12-17 14:43:36,739 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2025 14:43:36] "POST /api/search HTTP/1.1" 200 -
+2025-12-17 14:43:41,690 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2025 14:43:41] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-17 14:43:42,034 - RoomPlannerModel - INFO - Successfully loaded 4 products for room planning
+2025-12-17 14:43:42,046 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2025 14:43:42] "POST /api/search HTTP/1.1" 200 -
+2025-12-17 14:43:47,957 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2025 14:43:47] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-17 14:43:48,314 - RoomPlannerModel - INFO - Successfully loaded 4 products for room planning
+2025-12-17 14:43:48,324 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2025 14:43:48] "POST /api/search HTTP/1.1" 200 -
+2025-12-17 14:43:52,407 - RoomPlannerModel - INFO - Successfully loaded 4 products for room planning
+2025-12-17 14:43:52,421 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2025 14:43:52] "POST /api/search HTTP/1.1" 200 -
+2025-12-17 14:43:59,272 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2025 14:43:59] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-17 14:43:59,690 - RoomPlannerModel - INFO - Successfully loaded 4 products for room planning
+2025-12-17 14:43:59,703 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2025 14:43:59] "POST /api/search HTTP/1.1" 200 -
+2025-12-17 14:44:04,115 - RoomPlannerModel - INFO - Successfully loaded 4 products for room planning
+2025-12-17 14:44:04,125 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2025 14:44:04] "POST /api/search HTTP/1.1" 200 -
+2025-12-17 14:44:09,923 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2025 14:44:09] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-17 14:44:10,250 - RoomPlannerModel - INFO - Successfully loaded 4 products for room planning
+2025-12-17 14:44:10,262 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2025 14:44:10] "POST /api/search HTTP/1.1" 200 -
+2025-12-17 15:48:06,307 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2025 15:48:06] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-17 15:48:12,401 - RoomPlannerModel - INFO - Successfully loaded 4 products for room planning
+2025-12-17 15:48:12,900 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2025 15:48:12] "POST /api/search HTTP/1.1" 200 -
+2025-12-17 15:50:05,007 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2025 15:50:05] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-17 15:50:05,356 - RoomPlannerModel - INFO - Successfully loaded 4 products for room planning
+2025-12-17 15:50:05,356 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2025 15:50:05] "POST /api/search HTTP/1.1" 200 -
+2025-12-17 15:50:17,782 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2025 15:50:17] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-17 15:50:18,107 - RoomPlannerModel - INFO - Successfully loaded 4 products for room planning
+2025-12-17 15:50:18,107 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2025 15:50:18] "POST /api/search HTTP/1.1" 200 -
+2025-12-19 16:40:40,973 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 16:40:41,042 - room-planner-api - INFO - Room Planner Model initialized successfully
+2025-12-19 16:40:41,200 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.43.219:5001
+2025-12-19 16:40:41,236 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-19 16:41:14,323 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 16:41:14] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-19 16:41:26,467 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 16:41:26,731 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 16:41:26] "POST /api/search HTTP/1.1" 200 -
+2025-12-19 16:42:04,275 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 16:42:04] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-19 16:42:04,565 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 16:42:04] "[31m[1mPOST /api/search HTTP/1.1[0m" 400 -
+2025-12-19 16:42:18,107 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 16:42:18] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-19 16:42:18,754 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 16:42:18,786 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 16:42:18] "POST /api/search HTTP/1.1" 200 -
+2025-12-19 16:42:29,456 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 16:42:29] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-19 16:42:30,022 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 16:42:30,090 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 16:42:30] "POST /api/search HTTP/1.1" 200 -
+2025-12-19 16:42:46,173 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 16:42:46] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-19 16:42:47,167 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 16:42:47,256 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 16:42:47] "POST /api/search HTTP/1.1" 200 -
+2025-12-19 16:42:53,984 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 16:42:53] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-19 16:42:54,610 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 16:42:54,749 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 16:42:54] "POST /api/search HTTP/1.1" 200 -
+2025-12-19 17:14:30,265 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 17:14:30] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-19 17:14:31,208 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 17:14:31,336 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 17:14:31] "POST /api/search HTTP/1.1" 200 -
+2025-12-19 17:54:07,759 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 17:54:07] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-19 17:54:08,742 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 17:54:08,855 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 17:54:08] "POST /api/search HTTP/1.1" 200 -
+2025-12-19 17:59:12,042 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 17:59:12] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-19 17:59:12,555 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 17:59:12,783 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 17:59:12] "POST /api/search HTTP/1.1" 200 -
+2025-12-19 18:00:16,538 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 18:00:16] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-19 18:00:17,156 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 18:00:17,196 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 18:00:17] "POST /api/search HTTP/1.1" 200 -
+2025-12-19 18:00:49,000 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 18:00:49] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-19 18:00:51,542 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 18:00:51,603 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 18:00:51] "POST /api/search HTTP/1.1" 200 -
+2025-12-19 18:03:59,190 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 18:03:59] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-19 18:04:01,824 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 18:04:01,980 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 18:04:01] "POST /api/search HTTP/1.1" 200 -
+2025-12-19 18:04:08,712 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 18:04:08] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-19 18:04:09,676 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 18:04:09,707 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 18:04:09] "POST /api/search HTTP/1.1" 200 -
+2025-12-19 18:05:02,772 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 18:05:02,778 - room-planner-api - INFO - Room Planner Model initialized successfully
+2025-12-19 18:05:02,815 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.43.219:5001
+2025-12-19 18:05:02,825 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-19 18:05:08,135 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 18:05:08] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-19 18:05:08,442 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 18:05:08,491 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 18:05:08] "POST /api/search HTTP/1.1" 200 -
+2025-12-19 18:06:01,657 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 18:06:01] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-19 18:06:02,263 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 18:06:02] "[31m[1mPOST /api/search HTTP/1.1[0m" 400 -
+2025-12-19 18:06:12,682 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 18:06:12] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-19 18:06:21,842 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 18:06:22,433 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 18:06:22] "POST /api/search HTTP/1.1" 200 -
+2025-12-19 18:18:49,675 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 18:18:49,682 - room-planner-api - INFO - Room Planner Model initialized successfully
+2025-12-19 18:18:49,718 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.43.219:5001
+2025-12-19 18:18:49,723 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-19 18:22:22,835 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 18:22:22] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-19 18:22:23,292 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 18:22:23,366 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 18:22:23] "POST /api/search HTTP/1.1" 200 -
+2025-12-19 18:23:30,723 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 18:23:30] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-19 18:23:31,577 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 18:23:31,738 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 18:23:31] "POST /api/search HTTP/1.1" 200 -
+2025-12-19 18:24:45,992 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 18:24:45] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-19 18:24:46,431 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 18:24:46,480 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 18:24:46] "POST /api/search HTTP/1.1" 200 -
+2025-12-19 18:25:02,725 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 18:25:02] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-19 18:25:03,124 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 18:25:03,158 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 18:25:03] "POST /api/search HTTP/1.1" 200 -
+2025-12-19 18:25:06,838 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 18:25:06,863 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 18:25:06] "POST /api/search HTTP/1.1" 200 -
+2025-12-19 18:28:51,065 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 18:28:51] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-19 18:28:52,272 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 18:28:52,343 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 18:28:52] "POST /api/search HTTP/1.1" 200 -
+2025-12-19 18:33:21,043 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 18:33:21,164 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 18:33:21] "GET /api/product/21e9f125-dc4b-42bb-bf4a-9d99155f3bec/related?limit=10 HTTP/1.1" 200 -
+2025-12-19 18:33:26,162 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 18:33:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-19 18:39:29,759 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 18:39:30,203 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 18:39:30] "GET /api/product/1bd58115-6ba1-4b7a-a6f7-a857e7fdd308/related?limit=10 HTTP/1.1" 200 -
+2025-12-19 18:39:31,490 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 18:39:31,543 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 18:39:31] "GET /api/product/1bd58115-6ba1-4b7a-a6f7-a857e7fdd308/related?limit=10 HTTP/1.1" 200 -
+2025-12-19 18:41:38,938 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 18:41:38,985 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 18:41:38] "GET /api/product/be75e3f9-2225-49dd-9a47-af1d099db1c1/related?limit=10 HTTP/1.1" 200 -
+2025-12-19 18:41:39,479 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 18:41:39,516 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 18:41:39] "GET /api/product/be75e3f9-2225-49dd-9a47-af1d099db1c1/related?limit=10 HTTP/1.1" 200 -
+2025-12-19 18:44:12,858 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 18:44:12] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-19 18:44:13,425 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 18:44:13,694 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 18:44:13] "POST /api/search HTTP/1.1" 200 -
+2025-12-19 18:45:36,121 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 18:45:36,313 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 18:45:36] "GET /api/product/be75e3f9-2225-49dd-9a47-af1d099db1c1/related?limit=10 HTTP/1.1" 200 -
+2025-12-19 18:49:48,776 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 18:49:48] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-19 18:50:25,356 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 18:50:25,564 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 18:50:25] "POST /api/search HTTP/1.1" 200 -
+2025-12-19 18:50:32,485 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 18:50:32] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-19 18:50:35,133 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 18:50:35,372 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 18:50:35] "POST /api/search HTTP/1.1" 200 -
+2025-12-19 19:26:29,845 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 19:26:30,323 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 19:26:30] "GET /api/product/1bd58115-6ba1-4b7a-a6f7-a857e7fdd308/related?limit=10 HTTP/1.1" 200 -
+2025-12-19 19:26:31,686 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 19:26:31,796 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 19:26:31] "GET /api/product/1bd58115-6ba1-4b7a-a6f7-a857e7fdd308/related?limit=10 HTTP/1.1" 200 -
+2025-12-19 22:13:30,029 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 22:13:30] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-19 22:13:31,036 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 22:13:31,133 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 22:13:31] "POST /api/search HTTP/1.1" 200 -
+2025-12-19 22:13:48,362 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 22:13:48] "OPTIONS /api/search HTTP/1.1" 200 -
+2025-12-19 22:13:50,427 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 22:13:50,495 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 22:13:50] "POST /api/search HTTP/1.1" 200 -
+2025-12-19 22:14:13,043 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 22:14:13,654 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 22:14:13] "GET /api/product/e005e16f-37fd-40e4-983e-9f2ba3b8ba98/related?limit=10 HTTP/1.1" 200 -
+2025-12-19 22:14:54,907 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 22:14:55,024 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 22:14:55] "GET /api/product/1bd58115-6ba1-4b7a-a6f7-a857e7fdd308/related?limit=10 HTTP/1.1" 200 -
+2025-12-19 22:14:55,977 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 22:14:56,057 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 22:14:56] "GET /api/product/1bd58115-6ba1-4b7a-a6f7-a857e7fdd308/related?limit=10 HTTP/1.1" 200 -
+2025-12-19 22:15:04,273 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 22:15:04,498 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 22:15:04] "GET /api/product/be75e3f9-2225-49dd-9a47-af1d099db1c1/related?limit=10 HTTP/1.1" 200 -
+2025-12-19 22:15:04,907 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 22:15:05,072 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 22:15:05] "GET /api/product/be75e3f9-2225-49dd-9a47-af1d099db1c1/related?limit=10 HTTP/1.1" 200 -
+2025-12-19 22:15:06,218 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 22:15:06,521 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 22:15:06] "GET /api/product/be75e3f9-2225-49dd-9a47-af1d099db1c1/related?limit=10 HTTP/1.1" 200 -
+2025-12-19 22:15:41,840 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 22:15:41,871 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 22:15:41] "GET /api/product/2e7f765d-e361-47cf-905b-d9067546ad6d/related?limit=10 HTTP/1.1" 200 -
+2025-12-19 22:15:52,461 - RoomPlannerModel - INFO - Successfully loaded 8 products
+2025-12-19 22:15:52,497 - werkzeug - INFO - 127.0.0.1 - - [19/Dec/2025 22:15:52] "GET /api/product/2e7f765d-e361-47cf-905b-d9067546ad6d/related?limit=10 HTTP/1.1" 200 -
+2025-12-30 21:27:01,086 - room-planner-api - ERROR - Failed to initialize model: No module named 'pymysql'
+2025-12-30 21:27:01,144 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.5:5001
+2025-12-30 21:27:01,146 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-02 19:04:42,155 - room-planner-api - ERROR - Failed to initialize model: No module named 'pymysql'
+2026-01-02 19:04:42,267 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.8:5001
+2026-01-02 19:04:42,268 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-02 19:07:41,574 - room-planner-api - ERROR - Failed to initialize model: No module named 'pymysql'
+2026-01-02 19:07:41,592 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.8:5001
+2026-01-02 19:07:41,593 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-02 20:01:54,093 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2026 20:01:54] "[35m[1mGET /api/product/f0084906-95b4-45fa-b2a6-f7798811d72a/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-02 20:01:54,318 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2026 20:01:54] "[35m[1mGET /api/product/f0084906-95b4-45fa-b2a6-f7798811d72a/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-02 20:05:37,747 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2026 20:05:37] "[35m[1mGET /api/product/f0084906-95b4-45fa-b2a6-f7798811d72a/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-02 20:05:37,992 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2026 20:05:37] "[35m[1mGET /api/product/f0084906-95b4-45fa-b2a6-f7798811d72a/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-02 20:08:35,677 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2026 20:08:35] "[35m[1mGET /api/product/f0084906-95b4-45fa-b2a6-f7798811d72a/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-02 20:08:35,937 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2026 20:08:35] "[35m[1mGET /api/product/f0084906-95b4-45fa-b2a6-f7798811d72a/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-02 20:12:07,679 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2026 20:12:07] "[35m[1mGET /api/product/f0084906-95b4-45fa-b2a6-f7798811d72a/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-02 20:12:07,941 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2026 20:12:07] "[35m[1mGET /api/product/f0084906-95b4-45fa-b2a6-f7798811d72a/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-02 23:51:38,356 - room-planner-api - ERROR - Failed to initialize model: No module named 'pymysql'
+2026-01-02 23:51:38,372 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.8:5001
+2026-01-02 23:51:38,372 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-02 23:58:15,850 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2026 23:58:15] "[35m[1mGET /api/product/f0084906-95b4-45fa-b2a6-f7798811d72a/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-02 23:58:16,098 - werkzeug - INFO - 127.0.0.1 - - [02/Jan/2026 23:58:16] "[35m[1mGET /api/product/f0084906-95b4-45fa-b2a6-f7798811d72a/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 00:15:09,721 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:15:09] "[35m[1mGET /api/product/2d839110-a938-4664-b94f-4c63d9fbb154/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 00:15:09,971 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:15:09] "[35m[1mGET /api/product/2d839110-a938-4664-b94f-4c63d9fbb154/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 00:32:50,844 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:32:50] "[35m[1mGET /api/product/0870bfee-96f5-4e8f-8289-bdd806bd787d/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 00:32:51,092 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:32:51] "[35m[1mGET /api/product/0870bfee-96f5-4e8f-8289-bdd806bd787d/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 00:32:54,283 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:32:54] "[35m[1mGET /api/product/1861ff52-ac90-4e1b-9633-ddb1c488f769/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 00:32:54,604 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:32:54] "[35m[1mGET /api/product/1861ff52-ac90-4e1b-9633-ddb1c488f769/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 00:32:57,599 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:32:57] "[35m[1mGET /api/product/36fe1923-711d-408b-8e1d-e72c8abb5f7b/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 00:32:57,917 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:32:57] "[35m[1mGET /api/product/36fe1923-711d-408b-8e1d-e72c8abb5f7b/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 00:33:01,164 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:33:01] "[35m[1mGET /api/product/37afb95a-c4f2-4235-8538-386682419c89/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 00:33:01,479 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:33:01] "[35m[1mGET /api/product/37afb95a-c4f2-4235-8538-386682419c89/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 00:33:30,563 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:33:30] "[35m[1mGET /api/product/37afb95a-c4f2-4235-8538-386682419c89/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 00:33:30,870 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:33:30] "[35m[1mGET /api/product/37afb95a-c4f2-4235-8538-386682419c89/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 00:33:34,944 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:33:34] "[35m[1mGET /api/product/9927cdd2-0422-4988-b082-64c1626f17c1/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 00:33:35,266 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:33:35] "[35m[1mGET /api/product/9927cdd2-0422-4988-b082-64c1626f17c1/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 00:33:48,218 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:33:48] "[35m[1mGET /api/product/9927cdd2-0422-4988-b082-64c1626f17c1/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 00:33:48,532 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:33:48] "[35m[1mGET /api/product/9927cdd2-0422-4988-b082-64c1626f17c1/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 00:33:53,328 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:33:53] "[35m[1mGET /api/product/144b0330-f157-4cf4-9c2a-46de52f4234e/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 00:33:53,592 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:33:53] "[35m[1mGET /api/product/144b0330-f157-4cf4-9c2a-46de52f4234e/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 00:33:56,991 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:33:56] "[35m[1mGET /api/product/2d839110-a938-4664-b94f-4c63d9fbb154/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 00:33:57,313 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:33:57] "[35m[1mGET /api/product/2d839110-a938-4664-b94f-4c63d9fbb154/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 00:34:13,471 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:34:13] "[35m[1mGET /api/product/2d839110-a938-4664-b94f-4c63d9fbb154/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 00:34:13,791 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:34:13] "[35m[1mGET /api/product/2d839110-a938-4664-b94f-4c63d9fbb154/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 00:34:16,388 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:34:16] "[35m[1mGET /api/product/9039eff0-21d5-44f6-b611-ff4617f356fe/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 00:34:16,696 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:34:16] "[35m[1mGET /api/product/9039eff0-21d5-44f6-b611-ff4617f356fe/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 00:34:19,318 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:34:19] "[35m[1mGET /api/product/c8df971e-4f20-40e6-be3c-a2e49b3ba9a5/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 00:34:19,639 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:34:19] "[35m[1mGET /api/product/c8df971e-4f20-40e6-be3c-a2e49b3ba9a5/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 00:34:21,997 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:34:21] "[35m[1mGET /api/product/f0084906-95b4-45fa-b2a6-f7798811d72a/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 00:34:22,326 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:34:22] "[35m[1mGET /api/product/f0084906-95b4-45fa-b2a6-f7798811d72a/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 00:34:24,861 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:34:24] "[35m[1mGET /api/product/f955061c-0c74-4ff7-ab85-2c508e3a463f/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 00:34:25,187 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:34:25] "[35m[1mGET /api/product/f955061c-0c74-4ff7-ab85-2c508e3a463f/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 00:47:47,573 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:47:47] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-01-03 00:47:47,834 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:47:47] "[35m[1mPOST /api/search HTTP/1.1[0m" 500 -
+2026-01-03 00:47:52,720 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:47:52] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-01-03 00:47:53,036 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:47:53] "[35m[1mPOST /api/search HTTP/1.1[0m" 500 -
+2026-01-03 00:50:17,083 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:50:17] "[35m[1mGET /api/product/144b0330-f157-4cf4-9c2a-46de52f4234e/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 00:50:17,347 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:50:17] "[35m[1mGET /api/product/144b0330-f157-4cf4-9c2a-46de52f4234e/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 00:50:40,196 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:50:40] "[35m[1mGET /api/product/f955061c-0c74-4ff7-ab85-2c508e3a463f/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 00:50:40,510 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:50:40] "[35m[1mGET /api/product/f955061c-0c74-4ff7-ab85-2c508e3a463f/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 00:52:39,822 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:52:39] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-01-03 00:52:40,085 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:52:40] "[35m[1mPOST /api/search HTTP/1.1[0m" 500 -
+2026-01-03 00:56:32,019 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:56:32] "[35m[1mGET /api/product/36fe1923-711d-408b-8e1d-e72c8abb5f7b/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 00:56:32,283 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 00:56:32] "[35m[1mGET /api/product/36fe1923-711d-408b-8e1d-e72c8abb5f7b/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 01:01:10,379 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 01:01:10] "[35m[1mGET /api/product/144b0330-f157-4cf4-9c2a-46de52f4234e/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 01:01:10,643 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 01:01:10] "[35m[1mGET /api/product/144b0330-f157-4cf4-9c2a-46de52f4234e/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 01:01:32,985 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 01:01:32] "[35m[1mGET /api/product/144b0330-f157-4cf4-9c2a-46de52f4234e/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 01:01:33,301 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 01:01:33] "[35m[1mGET /api/product/144b0330-f157-4cf4-9c2a-46de52f4234e/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 01:01:37,460 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 01:01:37] "[35m[1mGET /api/product/36fe1923-711d-408b-8e1d-e72c8abb5f7b/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 01:01:37,777 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 01:01:37] "[35m[1mGET /api/product/36fe1923-711d-408b-8e1d-e72c8abb5f7b/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 10:01:22,547 - room-planner-api - ERROR - Failed to initialize model: No module named 'pymysql'
+2026-01-03 10:01:22,595 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.8:5001
+2026-01-03 10:01:22,595 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-03 10:04:20,272 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 10:04:20] "[35m[1mGET /api/product/36fe1923-711d-408b-8e1d-e72c8abb5f7b/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 10:04:20,514 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 10:04:20] "[35m[1mGET /api/product/36fe1923-711d-408b-8e1d-e72c8abb5f7b/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 10:04:58,843 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 10:04:58] "[35m[1mGET /api/product/0870bfee-96f5-4e8f-8289-bdd806bd787d/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 10:04:59,155 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 10:04:59] "[35m[1mGET /api/product/0870bfee-96f5-4e8f-8289-bdd806bd787d/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 10:06:28,712 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 10:06:28] "[35m[1mGET /api/product/27c613d9-38b7-4eeb-b14c-44c0d5dc01a7/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 10:06:28,959 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 10:06:28] "[35m[1mGET /api/product/27c613d9-38b7-4eeb-b14c-44c0d5dc01a7/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 17:05:08,520 - room-planner-api - ERROR - Failed to initialize model: No module named 'pymysql'
+2026-01-03 17:05:08,537 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.8:5001
+2026-01-03 17:05:08,537 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-03 21:21:20,425 - room-planner-api - ERROR - Failed to initialize model: No module named 'pymysql'
+2026-01-03 21:21:21,626 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.8:5001
+2026-01-03 21:21:21,626 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-03 21:33:40,430 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 21:33:40] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-01-03 21:33:40,677 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 21:33:40] "[35m[1mPOST /api/search HTTP/1.1[0m" 500 -
+2026-01-03 21:37:30,406 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 21:37:30] "[35m[1mGET /api/product/27c613d9-38b7-4eeb-b14c-44c0d5dc01a7/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 21:37:30,670 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 21:37:30] "[35m[1mGET /api/product/27c613d9-38b7-4eeb-b14c-44c0d5dc01a7/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 21:37:40,435 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 21:37:40] "[35m[1mGET /api/product/144b0330-f157-4cf4-9c2a-46de52f4234e/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 21:37:40,746 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 21:37:40] "[35m[1mGET /api/product/144b0330-f157-4cf4-9c2a-46de52f4234e/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 21:37:47,303 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 21:37:47] "[35m[1mGET /api/product/9927cdd2-0422-4988-b082-64c1626f17c1/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 21:37:47,613 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 21:37:47] "[35m[1mGET /api/product/9927cdd2-0422-4988-b082-64c1626f17c1/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 21:38:15,316 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 21:38:15] "[35m[1mGET /api/product/0870bfee-96f5-4e8f-8289-bdd806bd787d/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 21:38:15,580 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 21:38:15] "[35m[1mGET /api/product/0870bfee-96f5-4e8f-8289-bdd806bd787d/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 21:38:19,549 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 21:38:19] "[35m[1mGET /api/product/0870bfee-96f5-4e8f-8289-bdd806bd787d/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 21:38:19,866 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 21:38:19] "[35m[1mGET /api/product/0870bfee-96f5-4e8f-8289-bdd806bd787d/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 21:38:20,282 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 21:38:20] "[35m[1mGET /api/product/0870bfee-96f5-4e8f-8289-bdd806bd787d/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 21:38:20,595 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 21:38:20] "[35m[1mGET /api/product/0870bfee-96f5-4e8f-8289-bdd806bd787d/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 21:38:20,912 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 21:38:20] "[35m[1mGET /api/product/0870bfee-96f5-4e8f-8289-bdd806bd787d/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 21:38:20,924 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 21:38:20] "[35m[1mGET /api/product/0870bfee-96f5-4e8f-8289-bdd806bd787d/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 21:38:21,136 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 21:38:21] "[35m[1mGET /api/product/0870bfee-96f5-4e8f-8289-bdd806bd787d/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 21:38:21,469 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 21:38:21] "[35m[1mGET /api/product/0870bfee-96f5-4e8f-8289-bdd806bd787d/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 21:38:40,092 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 21:38:40] "[35m[1mGET /api/product/144b0330-f157-4cf4-9c2a-46de52f4234e/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 21:38:40,407 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 21:38:40] "[35m[1mGET /api/product/144b0330-f157-4cf4-9c2a-46de52f4234e/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 21:38:48,099 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 21:38:48] "[35m[1mGET /api/product/0870bfee-96f5-4e8f-8289-bdd806bd787d/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 21:38:48,349 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 21:38:48] "[35m[1mGET /api/product/0870bfee-96f5-4e8f-8289-bdd806bd787d/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 21:47:02,201 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 21:47:02] "[35m[1mGET /api/product/0870bfee-96f5-4e8f-8289-bdd806bd787d/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 21:47:02,450 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 21:47:02] "[35m[1mGET /api/product/0870bfee-96f5-4e8f-8289-bdd806bd787d/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 21:47:46,675 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 21:47:46] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-01-03 21:47:46,986 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 21:47:46] "[35m[1mPOST /api/search HTTP/1.1[0m" 500 -
+2026-01-03 21:49:30,947 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 21:49:30] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-01-03 21:49:31,206 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 21:49:31] "[35m[1mPOST /api/search HTTP/1.1[0m" 500 -
+2026-01-03 21:51:57,610 - room-planner-api - ERROR - Failed to initialize model: No module named 'pymysql'
+2026-01-03 21:51:58,815 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.8:5001
+2026-01-03 21:51:58,816 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-03 21:52:09,479 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 21:52:09] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-01-03 21:52:09,731 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 21:52:09] "[35m[1mPOST /api/search HTTP/1.1[0m" 500 -
+2026-01-03 21:58:34,357 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 21:58:34] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-01-03 21:58:34,362 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 21:58:34] "[35m[1mPOST /api/search HTTP/1.1[0m" 500 -
+2026-01-03 21:58:44,972 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 21:58:44] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-01-03 21:58:44,975 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 21:58:44] "[35m[1mPOST /api/search HTTP/1.1[0m" 500 -
+2026-01-03 22:11:29,725 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 22:11:29] "[35m[1mGET /api/product/144b0330-f157-4cf4-9c2a-46de52f4234e/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 22:11:29,985 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 22:11:29] "[35m[1mGET /api/product/144b0330-f157-4cf4-9c2a-46de52f4234e/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-03 22:12:35,062 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 22:12:35] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-01-03 22:12:35,330 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 22:12:35] "[35m[1mPOST /api/search HTTP/1.1[0m" 500 -
+2026-01-03 22:18:17,949 - RoomPlannerModel - INFO - Successfully loaded 21 products
+2026-01-03 22:18:17,954 - room-planner-api - INFO - Room Planner Model initialized successfully
+2026-01-03 22:18:17,967 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.8:5001
+2026-01-03 22:18:17,967 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-03 22:18:39,760 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 22:18:39] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-01-03 22:18:40,036 - RoomPlannerModel - INFO - Successfully loaded 21 products
+2026-01-03 22:18:40,051 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 22:18:40] "POST /api/search HTTP/1.1" 200 -
+2026-01-03 22:19:11,269 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 22:19:11] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-01-03 22:19:11,607 - RoomPlannerModel - INFO - Successfully loaded 21 products
+2026-01-03 22:19:11,619 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 22:19:11] "POST /api/search HTTP/1.1" 200 -
+2026-01-03 22:19:19,163 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 22:19:19] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-01-03 22:19:19,518 - RoomPlannerModel - INFO - Successfully loaded 21 products
+2026-01-03 22:19:19,528 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 22:19:19] "POST /api/search HTTP/1.1" 200 -
+2026-01-03 22:19:42,281 - RoomPlannerModel - INFO - Successfully loaded 21 products
+2026-01-03 22:19:42,303 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 22:19:42] "GET /api/product/0870bfee-96f5-4e8f-8289-bdd806bd787d/related?limit=10 HTTP/1.1" 200 -
+2026-01-03 22:19:42,657 - RoomPlannerModel - INFO - Successfully loaded 21 products
+2026-01-03 22:19:42,671 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 22:19:42] "GET /api/product/0870bfee-96f5-4e8f-8289-bdd806bd787d/related?limit=10 HTTP/1.1" 200 -
+2026-01-03 22:21:24,397 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 22:21:24] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-01-03 22:21:24,680 - RoomPlannerModel - INFO - Successfully loaded 21 products
+2026-01-03 22:21:24,703 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 22:21:24] "POST /api/search HTTP/1.1" 200 -
+2026-01-03 22:22:07,686 - RoomPlannerModel - INFO - Successfully loaded 21 products
+2026-01-03 22:22:07,701 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 22:22:07] "GET /api/product/144b0330-f157-4cf4-9c2a-46de52f4234e/related?limit=10 HTTP/1.1" 200 -
+2026-01-03 22:22:08,041 - RoomPlannerModel - INFO - Successfully loaded 21 products
+2026-01-03 22:22:08,059 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 22:22:08] "GET /api/product/144b0330-f157-4cf4-9c2a-46de52f4234e/related?limit=10 HTTP/1.1" 200 -
+2026-01-03 22:22:44,827 - RoomPlannerModel - INFO - Successfully loaded 21 products
+2026-01-03 22:22:44,845 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 22:22:44] "GET /api/product/0870bfee-96f5-4e8f-8289-bdd806bd787d/related?limit=10 HTTP/1.1" 200 -
+2026-01-03 22:22:45,098 - RoomPlannerModel - INFO - Successfully loaded 21 products
+2026-01-03 22:22:45,115 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 22:22:45] "GET /api/product/0870bfee-96f5-4e8f-8289-bdd806bd787d/related?limit=10 HTTP/1.1" 200 -
+2026-01-03 22:23:03,799 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 22:23:03] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-01-03 22:23:04,139 - RoomPlannerModel - INFO - Successfully loaded 21 products
+2026-01-03 22:23:04,156 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 22:23:04] "POST /api/search HTTP/1.1" 200 -
+2026-01-03 22:38:24,904 - RoomPlannerModel - INFO - Successfully loaded 21 products
+2026-01-03 22:38:24,919 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 22:38:24] "GET /api/product/0870bfee-96f5-4e8f-8289-bdd806bd787d/related?limit=10 HTTP/1.1" 200 -
+2026-01-03 22:38:25,156 - RoomPlannerModel - INFO - Successfully loaded 21 products
+2026-01-03 22:38:25,174 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 22:38:25] "GET /api/product/0870bfee-96f5-4e8f-8289-bdd806bd787d/related?limit=10 HTTP/1.1" 200 -
+2026-01-03 22:41:30,614 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 22:41:30] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-01-03 22:41:30,908 - RoomPlannerModel - INFO - Successfully loaded 21 products
+2026-01-03 22:41:30,934 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 22:41:30] "POST /api/search HTTP/1.1" 200 -
+2026-01-03 22:41:48,250 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 22:41:48] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-01-03 22:41:48,812 - RoomPlannerModel - INFO - Successfully loaded 21 products
+2026-01-03 22:41:48,832 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 22:41:48] "POST /api/search HTTP/1.1" 200 -
+2026-01-03 22:41:55,489 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 22:41:55] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-01-03 22:41:55,821 - RoomPlannerModel - INFO - Successfully loaded 21 products
+2026-01-03 22:41:55,838 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 22:41:55] "POST /api/search HTTP/1.1" 200 -
+2026-01-03 22:42:01,999 - RoomPlannerModel - INFO - Successfully loaded 21 products
+2026-01-03 22:42:02,013 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 22:42:02] "GET /api/product/27c613d9-38b7-4eeb-b14c-44c0d5dc01a7/related?limit=10 HTTP/1.1" 200 -
+2026-01-03 22:42:02,359 - RoomPlannerModel - INFO - Successfully loaded 21 products
+2026-01-03 22:42:02,378 - werkzeug - INFO - 127.0.0.1 - - [03/Jan/2026 22:42:02] "GET /api/product/27c613d9-38b7-4eeb-b14c-44c0d5dc01a7/related?limit=10 HTTP/1.1" 200 -
+2026-01-07 15:27:23,846 - room-planner-api - ERROR - Failed to initialize model: No module named 'pymysql'
+2026-01-07 15:27:23,868 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.2:5001
+2026-01-07 15:27:23,869 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-07 16:01:36,438 - werkzeug - INFO - 127.0.0.1 - - [07/Jan/2026 16:01:36] "[35m[1mGET /api/product/8559798a-fe33-427b-9e19-81e6c180e953/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-07 16:01:36,556 - werkzeug - INFO - 127.0.0.1 - - [07/Jan/2026 16:01:36] "[35m[1mGET /api/product/8559798a-fe33-427b-9e19-81e6c180e953/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-07 16:36:14,172 - werkzeug - INFO - 127.0.0.1 - - [07/Jan/2026 16:36:14] "[35m[1mGET /api/product/7b430cc3-a59f-4944-bf2d-cd06768814e6/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-07 16:36:14,409 - werkzeug - INFO - 127.0.0.1 - - [07/Jan/2026 16:36:14] "[35m[1mGET /api/product/7b430cc3-a59f-4944-bf2d-cd06768814e6/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-07 20:07:04,562 - room-planner-api - ERROR - Failed to initialize model: No module named 'pymysql'
+2026-01-07 20:07:04,602 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.2:5001
+2026-01-07 20:07:04,602 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 08:58:59,011 - room-planner-api - ERROR - Failed to initialize model: No module named 'pymysql'
+2026-01-11 08:58:59,120 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.0.200.121:5001
+2026-01-11 08:58:59,123 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 09:04:53,283 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:04:53] "[35m[1mGET /api/product/4d7f6318-0142-4c35-bd40-3028630cd945/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-11 09:04:53,462 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:04:53] "[35m[1mGET /api/product/4d7f6318-0142-4c35-bd40-3028630cd945/related?limit=10 HTTP/1.1[0m" 500 -
+2026-01-11 09:05:09,125 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:05:09] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-01-11 09:05:09,369 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:05:09] "[35m[1mPOST /api/search HTTP/1.1[0m" 500 -
+2026-01-11 09:12:34,170 - room-planner-api - ERROR - Failed to initialize model: No module named 'pymysql'
+2026-01-11 09:12:34,227 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.0.200.121:5001
+2026-01-11 09:12:34,227 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-11 09:14:33,962 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:14:33] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-01-11 09:14:34,218 - werkzeug - INFO - 127.0.0.1 - - [11/Jan/2026 09:14:34] "[35m[1mPOST /api/search HTTP/1.1[0m" 500 -
+2026-01-12 21:15:26,400 - room-planner-api - ERROR - Failed to initialize model: No module named 'pymysql'
+2026-01-12 21:15:26,439 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.5:5001
+2026-01-12 21:15:26,439 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-12 21:16:58,375 - werkzeug - INFO - 127.0.0.1 - - [12/Jan/2026 21:16:58] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-01-12 21:16:58,634 - werkzeug - INFO - 127.0.0.1 - - [12/Jan/2026 21:16:58] "[35m[1mPOST /api/search HTTP/1.1[0m" 500 -
+2026-01-12 21:18:53,857 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-01-12 21:18:53,862 - room-planner-api - INFO - Room Planner Model initialized successfully
+2026-01-12 21:18:53,875 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.5:5001
+2026-01-12 21:18:53,875 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-12 21:19:12,349 - werkzeug - INFO - 127.0.0.1 - - [12/Jan/2026 21:19:12] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-01-12 21:19:12,664 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-01-12 21:19:12,684 - werkzeug - INFO - 127.0.0.1 - - [12/Jan/2026 21:19:12] "POST /api/search HTTP/1.1" 200 -
+2026-01-12 21:20:13,724 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-01-12 21:20:13,740 - werkzeug - INFO - 127.0.0.1 - - [12/Jan/2026 21:20:13] "GET /api/product/0576422b-9fbc-4b3e-a951-ae7e6f9bddf2/related?limit=10 HTTP/1.1" 200 -
+2026-01-12 21:20:13,991 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-01-12 21:20:14,003 - werkzeug - INFO - 127.0.0.1 - - [12/Jan/2026 21:20:14] "GET /api/product/0576422b-9fbc-4b3e-a951-ae7e6f9bddf2/related?limit=10 HTTP/1.1" 200 -
+2026-01-12 21:20:28,262 - werkzeug - INFO - 127.0.0.1 - - [12/Jan/2026 21:20:28] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-01-12 21:20:28,628 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-01-12 21:20:28,640 - werkzeug - INFO - 127.0.0.1 - - [12/Jan/2026 21:20:28] "POST /api/search HTTP/1.1" 200 -
+2026-01-12 21:20:37,001 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-01-12 21:20:37,014 - werkzeug - INFO - 127.0.0.1 - - [12/Jan/2026 21:20:37] "GET /api/product/58db5911-cf31-467f-a71b-39714d1068d6/related?limit=10 HTTP/1.1" 200 -
+2026-01-12 21:20:37,396 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-01-12 21:20:37,408 - werkzeug - INFO - 127.0.0.1 - - [12/Jan/2026 21:20:37] "GET /api/product/58db5911-cf31-467f-a71b-39714d1068d6/related?limit=10 HTTP/1.1" 200 -
+2026-01-12 21:21:02,506 - werkzeug - INFO - 127.0.0.1 - - [12/Jan/2026 21:21:02] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-01-12 21:21:02,812 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-01-12 21:21:02,826 - werkzeug - INFO - 127.0.0.1 - - [12/Jan/2026 21:21:02] "POST /api/search HTTP/1.1" 200 -
+2026-01-12 21:21:08,947 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-01-12 21:21:08,958 - werkzeug - INFO - 127.0.0.1 - - [12/Jan/2026 21:21:08] "GET /api/product/fb4cdc70-326a-4a89-8f8c-d4df8d5cf6de/related?limit=10 HTTP/1.1" 200 -
+2026-01-12 21:21:09,335 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-01-12 21:21:09,345 - werkzeug - INFO - 127.0.0.1 - - [12/Jan/2026 21:21:09] "GET /api/product/fb4cdc70-326a-4a89-8f8c-d4df8d5cf6de/related?limit=10 HTTP/1.1" 200 -
+2026-01-22 20:52:14,454 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-01-22 20:52:14,466 - room-planner-api - INFO - Room Planner Model initialized successfully
+2026-01-22 20:52:14,534 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.3:5001
+2026-01-22 20:52:14,538 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-22 20:54:25,935 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-01-22 20:54:25,960 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2026 20:54:25] "GET /api/product/0576422b-9fbc-4b3e-a951-ae7e6f9bddf2/related?limit=10 HTTP/1.1" 200 -
+2026-01-22 20:54:26,266 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-01-22 20:54:26,295 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2026 20:54:26] "GET /api/product/0576422b-9fbc-4b3e-a951-ae7e6f9bddf2/related?limit=10 HTTP/1.1" 200 -

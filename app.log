@@ -1612,3 +1612,363 @@ IndexError: index 10 is out of bounds for axis 0 with size 10
 2026-01-22 20:54:25,960 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2026 20:54:25] "GET /api/product/0576422b-9fbc-4b3e-a951-ae7e6f9bddf2/related?limit=10 HTTP/1.1" 200 -
 2026-01-22 20:54:26,266 - RoomPlannerModel - INFO - Successfully loaded 24 products
 2026-01-22 20:54:26,295 - werkzeug - INFO - 127.0.0.1 - - [22/Jan/2026 20:54:26] "GET /api/product/0576422b-9fbc-4b3e-a951-ae7e6f9bddf2/related?limit=10 HTTP/1.1" 200 -
+2026-02-07 21:10:33,479 - RoomPlannerModel - ERROR - Database load error: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-07 21:10:33,480 - room-planner-api - ERROR - Failed to initialize model: Failed to load data: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-07 21:10:33,526 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.4:5001
+2026-02-07 21:10:33,526 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-07 21:15:15,375 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:15:15] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-02-07 21:15:15,628 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:15:15] "[35m[1mPOST /api/search HTTP/1.1[0m" 500 -
+2026-02-07 21:15:51,732 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:15:51] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-02-07 21:15:52,051 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:15:52] "[35m[1mPOST /api/search HTTP/1.1[0m" 500 -
+2026-02-07 21:16:00,933 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:16:00] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-02-07 21:16:01,244 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:16:01] "[35m[1mPOST /api/search HTTP/1.1[0m" 500 -
+2026-02-07 21:17:01,380 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-07 21:17:01,383 - room-planner-api - INFO - Room Planner Model initialized successfully
+2026-02-07 21:17:01,393 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.4:5001
+2026-02-07 21:17:01,394 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-07 21:17:50,273 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:17:50] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-02-07 21:17:50,625 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-07 21:17:50,647 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:17:50] "POST /api/search HTTP/1.1" 200 -
+2026-02-09 10:57:16,435 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 10:57:16,439 - room-planner-api - INFO - Room Planner Model initialized successfully
+2026-02-09 10:57:16,470 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.4:5001
+2026-02-09 10:57:16,470 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-09 13:24:05,443 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 13:24:05,449 - room-planner-api - INFO - Room Planner Model initialized successfully
+2026-02-09 13:24:05,466 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.4:5001
+2026-02-09 13:24:05,466 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-09 14:09:33,019 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 14:09:33,075 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 14:09:33] "GET /api/product/0576422b-9fbc-4b3e-a951-ae7e6f9bddf2/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 14:09:33,208 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 14:09:33,237 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 14:09:33] "GET /api/product/0576422b-9fbc-4b3e-a951-ae7e6f9bddf2/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 15:03:49,935 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 15:03:49] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-02-09 15:03:50,283 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 15:03:50,312 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 15:03:50] "POST /api/search HTTP/1.1" 200 -
+2026-02-09 15:04:02,131 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 15:04:02,151 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 15:04:02] "GET /api/product/fd663b4b-382e-416e-85f6-46eae4037663/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 15:04:02,550 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 15:04:02,561 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 15:04:02] "GET /api/product/fd663b4b-382e-416e-85f6-46eae4037663/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 15:05:17,908 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 15:05:17] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-02-09 15:05:18,216 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 15:05:18,242 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 15:05:18] "POST /api/search HTTP/1.1" 200 -
+2026-02-09 15:05:24,216 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 15:05:24,230 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 15:05:24] "GET /api/product/fb4cdc70-326a-4a89-8f8c-d4df8d5cf6de/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 15:05:24,634 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 15:05:24,649 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 15:05:24] "GET /api/product/fb4cdc70-326a-4a89-8f8c-d4df8d5cf6de/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 15:05:33,518 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 15:05:33] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-02-09 15:05:33,823 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 15:05:33,837 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 15:05:33] "POST /api/search HTTP/1.1" 200 -
+2026-02-09 15:05:45,019 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 15:05:45,034 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 15:05:45] "GET /api/product/ce9de757-9ac0-4fc9-80c5-5d41d723baf3/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 15:05:45,441 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 15:05:45,451 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 15:05:45] "GET /api/product/ce9de757-9ac0-4fc9-80c5-5d41d723baf3/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 15:06:01,084 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 15:06:01,101 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 15:06:01] "GET /api/product/0576422b-9fbc-4b3e-a951-ae7e6f9bddf2/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 15:06:01,342 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 15:06:01,354 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 15:06:01] "GET /api/product/0576422b-9fbc-4b3e-a951-ae7e6f9bddf2/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 15:08:09,458 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 15:08:09,474 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 15:08:09] "GET /api/product/ea2b1a69-080d-4972-a033-3931baf2044e/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 15:08:09,608 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 15:08:09,625 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 15:08:09] "GET /api/product/ea2b1a69-080d-4972-a033-3931baf2044e/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 15:09:19,156 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 15:09:19,170 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 15:09:19] "GET /api/product/8559798a-fe33-427b-9e19-81e6c180e953/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 15:09:19,470 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 15:09:19,485 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 15:09:19] "GET /api/product/8559798a-fe33-427b-9e19-81e6c180e953/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 15:09:57,003 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 15:09:57,015 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 15:09:57] "GET /api/product/2546d7b2-ff81-4541-bf42-e5c9618f1b16/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 15:09:57,420 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 15:09:57,442 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 15:09:57] "GET /api/product/2546d7b2-ff81-4541-bf42-e5c9618f1b16/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 15:10:10,546 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 15:10:10,559 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 15:10:10] "GET /api/product/1723e3c2-7e3e-4099-9653-15d1c3669912/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 15:10:10,862 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 15:10:10,886 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 15:10:10] "GET /api/product/1723e3c2-7e3e-4099-9653-15d1c3669912/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 15:10:33,163 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 15:10:33,178 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 15:10:33] "GET /api/product/58db5911-cf31-467f-a71b-39714d1068d6/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 15:10:33,514 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 15:10:33,531 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 15:10:33] "GET /api/product/58db5911-cf31-467f-a71b-39714d1068d6/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 15:10:48,122 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 15:10:48,140 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 15:10:48] "GET /api/product/ce9de757-9ac0-4fc9-80c5-5d41d723baf3/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 15:10:48,383 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 15:10:48,403 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 15:10:48] "GET /api/product/ce9de757-9ac0-4fc9-80c5-5d41d723baf3/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 15:22:00,818 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 15:22:00,836 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 15:22:00] "GET /api/product/2546d7b2-ff81-4541-bf42-e5c9618f1b16/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 15:22:01,103 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 15:22:01,122 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 15:22:01] "GET /api/product/2546d7b2-ff81-4541-bf42-e5c9618f1b16/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 15:48:54,200 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 15:48:54,203 - room-planner-api - INFO - Room Planner Model initialized successfully
+2026-02-09 15:48:54,233 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.4:5001
+2026-02-09 15:48:54,233 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-09 15:55:01,877 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 15:55:01,884 - room-planner-api - INFO - Room Planner Model initialized successfully
+2026-02-09 15:55:01,902 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.4:5001
+2026-02-09 15:55:01,902 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-09 16:18:45,628 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 16:18:45,634 - room-planner-api - INFO - Room Planner Model initialized successfully
+2026-02-09 16:18:45,659 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.4:5001
+2026-02-09 16:18:45,659 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-09 16:29:31,429 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 16:29:31,439 - room-planner-api - INFO - Room Planner Model initialized successfully
+2026-02-09 16:29:31,466 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.4:5001
+2026-02-09 16:29:31,466 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-09 16:36:26,804 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 16:36:26,825 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 16:36:26] "GET /api/product/2546d7b2-ff81-4541-bf42-e5c9618f1b16/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 16:36:27,057 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 16:36:27,069 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 16:36:27] "GET /api/product/2546d7b2-ff81-4541-bf42-e5c9618f1b16/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 16:37:54,872 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 16:37:54] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-02-09 16:37:55,206 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 16:37:55,235 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 16:37:55] "POST /api/search HTTP/1.1" 200 -
+2026-02-09 16:39:47,571 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 16:39:47,580 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 16:39:47] "GET /api/product/0576422b-9fbc-4b3e-a951-ae7e6f9bddf2/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 16:39:47,858 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 16:39:47,868 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 16:39:47] "GET /api/product/0576422b-9fbc-4b3e-a951-ae7e6f9bddf2/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 16:41:43,348 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 16:41:43,351 - room-planner-api - INFO - Room Planner Model initialized successfully
+2026-02-09 16:41:43,368 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.4:5001
+2026-02-09 16:41:43,369 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-09 16:46:03,087 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 16:46:03,091 - room-planner-api - INFO - Room Planner Model initialized successfully
+2026-02-09 16:46:03,106 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.4:5001
+2026-02-09 16:46:03,107 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-09 16:51:49,311 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 16:51:49,314 - room-planner-api - INFO - Room Planner Model initialized successfully
+2026-02-09 16:51:49,329 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.4:5001
+2026-02-09 16:51:49,329 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-09 19:55:10,812 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 19:55:10,820 - room-planner-api - INFO - Room Planner Model initialized successfully
+2026-02-09 19:55:10,839 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.4:5001
+2026-02-09 19:55:10,839 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-09 19:55:55,028 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 19:55:55,044 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 19:55:55] "GET /api/product/0576422b-9fbc-4b3e-a951-ae7e6f9bddf2/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 19:55:55,295 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 19:55:55,307 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 19:55:55] "GET /api/product/0576422b-9fbc-4b3e-a951-ae7e6f9bddf2/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 20:05:37,544 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 20:05:37,555 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 20:05:37] "GET /api/product/da28b906-8cea-4681-a06f-9ab34f175d7c/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 20:05:37,805 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 20:05:37,817 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 20:05:37] "GET /api/product/da28b906-8cea-4681-a06f-9ab34f175d7c/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 20:13:35,559 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 20:13:35,571 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 20:13:35] "GET /api/product/0576422b-9fbc-4b3e-a951-ae7e6f9bddf2/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 20:13:35,866 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 20:13:35,879 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 20:13:35] "GET /api/product/0576422b-9fbc-4b3e-a951-ae7e6f9bddf2/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 20:14:18,750 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 20:14:18,761 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 20:14:18] "GET /api/product/1723e3c2-7e3e-4099-9653-15d1c3669912/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 20:14:18,949 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 20:14:18,961 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 20:14:18] "GET /api/product/1723e3c2-7e3e-4099-9653-15d1c3669912/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 20:15:00,709 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 20:15:00,720 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 20:15:00] "GET /api/product/2546d7b2-ff81-4541-bf42-e5c9618f1b16/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 20:15:00,964 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 20:15:00,979 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 20:15:00] "GET /api/product/2546d7b2-ff81-4541-bf42-e5c9618f1b16/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 20:15:04,404 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 20:15:04,416 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 20:15:04] "GET /api/product/1723e3c2-7e3e-4099-9653-15d1c3669912/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 20:15:04,758 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 20:15:04,770 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 20:15:04] "GET /api/product/1723e3c2-7e3e-4099-9653-15d1c3669912/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 20:15:10,236 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 20:15:10,245 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 20:15:10] "GET /api/product/7b430cc3-a59f-4944-bf2d-cd06768814e6/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 20:15:10,490 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 20:15:10,499 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 20:15:10] "GET /api/product/7b430cc3-a59f-4944-bf2d-cd06768814e6/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 20:16:40,811 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 20:16:40,821 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 20:16:40] "GET /api/product/0d26e37f-8c97-4831-9713-facd48a6be87/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 20:16:41,056 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 20:16:41,068 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 20:16:41] "GET /api/product/0d26e37f-8c97-4831-9713-facd48a6be87/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 20:27:13,642 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 20:27:13,653 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 20:27:13] "GET /api/product/ce9de757-9ac0-4fc9-80c5-5d41d723baf3/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 20:27:13,907 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 20:27:13,918 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 20:27:13] "GET /api/product/ce9de757-9ac0-4fc9-80c5-5d41d723baf3/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 20:28:51,056 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 20:28:51,068 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 20:28:51] "GET /api/product/0576422b-9fbc-4b3e-a951-ae7e6f9bddf2/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 20:28:51,350 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 20:28:51,363 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 20:28:51] "GET /api/product/0576422b-9fbc-4b3e-a951-ae7e6f9bddf2/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 20:37:47,478 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 20:37:47,489 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 20:37:47] "GET /api/product/0576422b-9fbc-4b3e-a951-ae7e6f9bddf2/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 20:37:47,730 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 20:37:47,740 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 20:37:47] "GET /api/product/0576422b-9fbc-4b3e-a951-ae7e6f9bddf2/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 20:40:02,625 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 20:40:02,634 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 20:40:02] "GET /api/product/4d7f6318-0142-4c35-bd40-3028630cd945/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 20:40:02,875 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 20:40:02,884 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 20:40:02] "GET /api/product/4d7f6318-0142-4c35-bd40-3028630cd945/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 20:41:37,578 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 20:41:37,593 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 20:41:37] "GET /api/product/fd1e95ee-4033-4122-8957-0606f905f416/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 20:41:37,842 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 20:41:37,853 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 20:41:37] "GET /api/product/fd1e95ee-4033-4122-8957-0606f905f416/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 20:42:04,833 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 20:42:04,844 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 20:42:04] "GET /api/product/0576422b-9fbc-4b3e-a951-ae7e6f9bddf2/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 20:42:05,193 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 20:42:05,205 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 20:42:05] "GET /api/product/0576422b-9fbc-4b3e-a951-ae7e6f9bddf2/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 20:46:26,713 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 20:46:26,725 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 20:46:26] "GET /api/product/0576422b-9fbc-4b3e-a951-ae7e6f9bddf2/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 20:46:26,956 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 20:46:26,968 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 20:46:26] "GET /api/product/0576422b-9fbc-4b3e-a951-ae7e6f9bddf2/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 20:48:34,852 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 20:48:34,862 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 20:48:34] "GET /api/product/7b430cc3-a59f-4944-bf2d-cd06768814e6/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 20:48:35,118 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 20:48:35,128 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 20:48:35] "GET /api/product/7b430cc3-a59f-4944-bf2d-cd06768814e6/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 22:07:00,609 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 22:07:00,625 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 22:07:00] "GET /api/product/0576422b-9fbc-4b3e-a951-ae7e6f9bddf2/related?limit=10 HTTP/1.1" 200 -
+2026-02-09 22:07:02,133 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-09 22:07:02,147 - werkzeug - INFO - 127.0.0.1 - - [09/Feb/2026 22:07:02] "GET /api/product/0576422b-9fbc-4b3e-a951-ae7e6f9bddf2/related?limit=10 HTTP/1.1" 200 -
+2026-02-10 15:32:10,318 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-10 15:32:10,325 - room-planner-api - INFO - Room Planner Model initialized successfully
+2026-02-10 15:32:10,366 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.2:5001
+2026-02-10 15:32:10,366 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-10 17:26:06,186 - RoomPlannerModel - ERROR - Database load error: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-10 17:26:06,186 - room-planner-api - ERROR - Failed to initialize model: Failed to load data: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-10 17:26:06,285 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.2:5001
+2026-02-10 17:26:06,285 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-10 17:33:54,931 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2026 17:33:54] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-02-10 17:33:55,166 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2026 17:33:55] "[35m[1mPOST /api/search HTTP/1.1[0m" 500 -
+2026-02-10 17:34:46,905 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-10 17:34:46,914 - room-planner-api - INFO - Room Planner Model initialized successfully
+2026-02-10 17:34:46,970 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.2:5001
+2026-02-10 17:34:46,971 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-10 17:34:55,865 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2026 17:34:55] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-02-10 17:34:56,186 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-10 17:34:56,206 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2026 17:34:56] "POST /api/search HTTP/1.1" 200 -
+2026-02-10 17:35:09,579 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-10 17:35:09,611 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2026 17:35:09] "GET /api/product/58db5911-cf31-467f-a71b-39714d1068d6/related?limit=10 HTTP/1.1" 200 -
+2026-02-10 17:35:09,996 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-10 17:35:10,014 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2026 17:35:10] "GET /api/product/58db5911-cf31-467f-a71b-39714d1068d6/related?limit=10 HTTP/1.1" 200 -
+2026-02-10 17:35:23,602 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2026 17:35:23] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-02-10 17:35:23,956 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-10 17:35:23,982 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2026 17:35:23] "POST /api/search HTTP/1.1" 200 -
+2026-02-10 17:35:38,449 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-10 17:35:38,474 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2026 17:35:38] "GET /api/product/fd663b4b-382e-416e-85f6-46eae4037663/related?limit=10 HTTP/1.1" 200 -
+2026-02-10 17:35:38,875 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-10 17:35:38,893 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2026 17:35:38] "GET /api/product/fd663b4b-382e-416e-85f6-46eae4037663/related?limit=10 HTTP/1.1" 200 -
+2026-02-10 17:36:02,743 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2026 17:36:02] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-02-10 17:36:03,137 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-10 17:36:03,165 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2026 17:36:03] "POST /api/search HTTP/1.1" 200 -
+2026-02-10 17:36:30,228 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-10 17:36:30,272 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2026 17:36:30] "GET /api/product/0576422b-9fbc-4b3e-a951-ae7e6f9bddf2/related?limit=10 HTTP/1.1" 200 -
+2026-02-10 17:36:30,643 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-10 17:36:30,667 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2026 17:36:30] "GET /api/product/0576422b-9fbc-4b3e-a951-ae7e6f9bddf2/related?limit=10 HTTP/1.1" 200 -
+2026-02-10 17:36:42,246 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2026 17:36:42] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-02-10 17:36:42,534 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-10 17:36:42,550 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2026 17:36:42] "POST /api/search HTTP/1.1" 200 -
+2026-02-10 17:36:45,996 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-10 17:36:46,026 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2026 17:36:46] "GET /api/product/fd663b4b-382e-416e-85f6-46eae4037663/related?limit=10 HTTP/1.1" 200 -
+2026-02-10 17:36:46,388 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-10 17:36:46,407 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2026 17:36:46] "GET /api/product/fd663b4b-382e-416e-85f6-46eae4037663/related?limit=10 HTTP/1.1" 200 -
+2026-02-10 17:37:02,700 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2026 17:37:02] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-02-10 17:37:03,048 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-10 17:37:03,086 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2026 17:37:03] "POST /api/search HTTP/1.1" 200 -
+2026-02-10 17:37:11,073 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-10 17:37:11,093 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2026 17:37:11] "GET /api/product/58db5911-cf31-467f-a71b-39714d1068d6/related?limit=10 HTTP/1.1" 200 -
+2026-02-10 17:37:11,444 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-10 17:37:11,462 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2026 17:37:11] "GET /api/product/58db5911-cf31-467f-a71b-39714d1068d6/related?limit=10 HTTP/1.1" 200 -
+2026-02-10 17:37:29,139 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-10 17:37:29,155 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2026 17:37:29] "GET /api/product/0576422b-9fbc-4b3e-a951-ae7e6f9bddf2/related?limit=10 HTTP/1.1" 200 -
+2026-02-10 17:37:29,409 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-10 17:37:29,438 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2026 17:37:29] "GET /api/product/0576422b-9fbc-4b3e-a951-ae7e6f9bddf2/related?limit=10 HTTP/1.1" 200 -
+2026-02-10 22:46:01,549 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-10 22:46:01,557 - room-planner-api - INFO - Room Planner Model initialized successfully
+2026-02-10 22:46:01,602 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.2:5001
+2026-02-10 22:46:01,602 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-10 23:10:52,647 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2026 23:10:52] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-02-10 23:10:53,065 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-10 23:10:53,107 - werkzeug - INFO - 127.0.0.1 - - [10/Feb/2026 23:10:53] "POST /api/search HTTP/1.1" 200 -
+2026-02-11 00:06:52,897 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-11 00:06:52,901 - room-planner-api - INFO - Room Planner Model initialized successfully
+2026-02-11 00:06:52,920 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.2:5001
+2026-02-11 00:06:52,921 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-11 00:18:01,273 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-11 00:18:01,290 - werkzeug - INFO - 127.0.0.1 - - [11/Feb/2026 00:18:01] "GET /api/product/1723e3c2-7e3e-4099-9653-15d1c3669912/related?limit=10 HTTP/1.1" 200 -
+2026-02-11 00:18:01,522 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-11 00:18:01,532 - werkzeug - INFO - 127.0.0.1 - - [11/Feb/2026 00:18:01] "GET /api/product/1723e3c2-7e3e-4099-9653-15d1c3669912/related?limit=10 HTTP/1.1" 200 -
+2026-02-11 00:18:18,752 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-11 00:18:18,764 - werkzeug - INFO - 127.0.0.1 - - [11/Feb/2026 00:18:18] "GET /api/product/ce9de757-9ac0-4fc9-80c5-5d41d723baf3/related?limit=10 HTTP/1.1" 200 -
+2026-02-11 00:18:19,186 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-11 00:18:19,202 - werkzeug - INFO - 127.0.0.1 - - [11/Feb/2026 00:18:19] "GET /api/product/ce9de757-9ac0-4fc9-80c5-5d41d723baf3/related?limit=10 HTTP/1.1" 200 -
+2026-02-11 00:18:35,863 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-11 00:18:35,873 - werkzeug - INFO - 127.0.0.1 - - [11/Feb/2026 00:18:35] "GET /api/product/0d26e37f-8c97-4831-9713-facd48a6be87/related?limit=10 HTTP/1.1" 200 -
+2026-02-11 00:18:36,144 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-11 00:18:36,155 - werkzeug - INFO - 127.0.0.1 - - [11/Feb/2026 00:18:36] "GET /api/product/0d26e37f-8c97-4831-9713-facd48a6be87/related?limit=10 HTTP/1.1" 200 -
+2026-02-11 00:21:02,266 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-11 00:21:02,277 - werkzeug - INFO - 127.0.0.1 - - [11/Feb/2026 00:21:02] "GET /api/product/1723e3c2-7e3e-4099-9653-15d1c3669912/related?limit=10 HTTP/1.1" 200 -
+2026-02-11 00:21:02,486 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-11 00:21:02,502 - werkzeug - INFO - 127.0.0.1 - - [11/Feb/2026 00:21:02] "GET /api/product/1723e3c2-7e3e-4099-9653-15d1c3669912/related?limit=10 HTTP/1.1" 200 -
+2026-02-11 00:21:15,514 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-11 00:21:15,526 - werkzeug - INFO - 127.0.0.1 - - [11/Feb/2026 00:21:15] "GET /api/product/8f27e3c1-378c-4bba-8591-42724589fce6/related?limit=10 HTTP/1.1" 200 -
+2026-02-11 00:21:15,905 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-11 00:21:15,919 - werkzeug - INFO - 127.0.0.1 - - [11/Feb/2026 00:21:15] "GET /api/product/8f27e3c1-378c-4bba-8591-42724589fce6/related?limit=10 HTTP/1.1" 200 -
+2026-02-11 00:21:18,995 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-11 00:21:19,006 - werkzeug - INFO - 127.0.0.1 - - [11/Feb/2026 00:21:19] "GET /api/product/fb4cdc70-326a-4a89-8f8c-d4df8d5cf6de/related?limit=10 HTTP/1.1" 200 -
+2026-02-11 00:21:19,271 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-11 00:21:19,287 - werkzeug - INFO - 127.0.0.1 - - [11/Feb/2026 00:21:19] "GET /api/product/fb4cdc70-326a-4a89-8f8c-d4df8d5cf6de/related?limit=10 HTTP/1.1" 200 -
+2026-02-11 00:21:22,326 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-11 00:21:22,337 - werkzeug - INFO - 127.0.0.1 - - [11/Feb/2026 00:21:22] "GET /api/product/da28b906-8cea-4681-a06f-9ab34f175d7c/related?limit=10 HTTP/1.1" 200 -
+2026-02-11 00:21:22,746 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-11 00:21:22,757 - werkzeug - INFO - 127.0.0.1 - - [11/Feb/2026 00:21:22] "GET /api/product/da28b906-8cea-4681-a06f-9ab34f175d7c/related?limit=10 HTTP/1.1" 200 -
+2026-02-11 00:22:02,340 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-11 00:22:02,356 - werkzeug - INFO - 127.0.0.1 - - [11/Feb/2026 00:22:02] "GET /api/product/1723e3c2-7e3e-4099-9653-15d1c3669912/related?limit=10 HTTP/1.1" 200 -
+2026-02-11 00:22:02,622 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-11 00:22:02,633 - werkzeug - INFO - 127.0.0.1 - - [11/Feb/2026 00:22:02] "GET /api/product/1723e3c2-7e3e-4099-9653-15d1c3669912/related?limit=10 HTTP/1.1" 200 -
+2026-02-11 00:22:52,365 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-11 00:22:52,379 - werkzeug - INFO - 127.0.0.1 - - [11/Feb/2026 00:22:52] "GET /api/product/58db5911-cf31-467f-a71b-39714d1068d6/related?limit=10 HTTP/1.1" 200 -
+2026-02-11 00:22:52,800 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-11 00:22:52,816 - werkzeug - INFO - 127.0.0.1 - - [11/Feb/2026 00:22:52] "GET /api/product/58db5911-cf31-467f-a71b-39714d1068d6/related?limit=10 HTTP/1.1" 200 -
+2026-02-11 00:24:50,998 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-11 00:24:51,015 - werkzeug - INFO - 127.0.0.1 - - [11/Feb/2026 00:24:51] "GET /api/product/ce9de757-9ac0-4fc9-80c5-5d41d723baf3/related?limit=10 HTTP/1.1" 200 -
+2026-02-11 00:24:51,323 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-11 00:24:51,338 - werkzeug - INFO - 127.0.0.1 - - [11/Feb/2026 00:24:51] "GET /api/product/ce9de757-9ac0-4fc9-80c5-5d41d723baf3/related?limit=10 HTTP/1.1" 200 -
+2026-02-11 00:25:03,991 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-11 00:25:04,001 - werkzeug - INFO - 127.0.0.1 - - [11/Feb/2026 00:25:04] "GET /api/product/c21487f8-79b5-4ef8-bdc9-4bfea56e3490/related?limit=10 HTTP/1.1" 200 -
+2026-02-11 00:25:04,381 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-11 00:25:04,392 - werkzeug - INFO - 127.0.0.1 - - [11/Feb/2026 00:25:04] "GET /api/product/c21487f8-79b5-4ef8-bdc9-4bfea56e3490/related?limit=10 HTTP/1.1" 200 -
+2026-02-11 00:25:23,269 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-11 00:25:23,280 - werkzeug - INFO - 127.0.0.1 - - [11/Feb/2026 00:25:23] "GET /api/product/ea2b1a69-080d-4972-a033-3931baf2044e/related?limit=10 HTTP/1.1" 200 -
+2026-02-11 00:25:23,531 - RoomPlannerModel - INFO - Successfully loaded 24 products
+2026-02-11 00:25:23,542 - werkzeug - INFO - 127.0.0.1 - - [11/Feb/2026 00:25:23] "GET /api/product/ea2b1a69-080d-4972-a033-3931baf2044e/related?limit=10 HTTP/1.1" 200 -

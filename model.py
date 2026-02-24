@@ -153,36 +153,10 @@ class RoomPlannerModel:
             (self.df['budget_range'] == budget_range)
         ].copy()
 
-        result_df = exact_df
-
-        if len(result_df) < limit:
-            query_vector = self._get_query_vector(room_size, room_type, style, budget_range)
-            similarities = cosine_similarity(query_vector, self.feature_matrix)[0]
-
-            candidates = self.df[self.df['room_type'] == room_type].copy()
-            candidate_indices = candidates.index
-            candidates['match_score'] = [similarities[i] * 100 for i in candidate_indices]
-            candidates = candidates[~candidates.index.isin(exact_df.index)]
-
-            similar_df = candidates.sort_values('match_score', ascending=False).head(limit * 2)
-            result_df = pd.concat([exact_df, similar_df]).drop_duplicates(subset=['id'])
-
-        result_df = result_df[result_df['room_type'] == room_type]
-
-        if len(result_df) == 0:
-            result_df = self.df[self.df['room_type'] == room_type].head(limit)
-
-        if 'match_score' not in result_df.columns:
-            result_df['match_score'] = 80.0
-        exact_mask = (
-            (result_df['room_size'] == room_size) &
-            (result_df['room_type'] == room_type) &
-            (result_df['style'] == style) &
-            (result_df['budget_range'] == budget_range)
-        )
-        result_df.loc[exact_mask, 'match_score'] = 100.0
-
-        result_df = result_df.sort_values('match_score', ascending=False).head(limit)
+        # Strict-mode recommendations: return only products that exactly match
+        # the selected filters (room size, room type, style, and budget).
+        result_df = exact_df.head(limit).copy()
+        result_df['match_score'] = 100.0
 
         suggestions = [
             {
@@ -199,7 +173,15 @@ class RoomPlannerModel:
 
         return {
             'title': f"{style} {room_type} Design",
-            'description': f"Recommendations for your {room_size.lower()} {room_type.lower()} in {style.lower()} style ({budget_range.lower()} budget):",
+            'description': (
+                f"Exact-match recommendations for your {room_size.lower()} {room_type.lower()} "
+                f"in {style.lower()} style ({budget_range.lower()} budget)."
+                if len(suggestions) > 0
+                else (
+                    f"No exact-match products found for your {room_size.lower()} {room_type.lower()} "
+                    f"in {style.lower()} style ({budget_range.lower()} budget)."
+                )
+            ),
             'suggestions': suggestions,
             'tips': self._generate_design_tips(room_size, room_type, style, budget_range),
             'tags': self._generate_tags(room_size, room_type, style, budget_range)

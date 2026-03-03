@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import logging
-from model import RoomPlannerModel
+from threading import Lock
 
 # Logging setup
 logging.basicConfig(
@@ -17,6 +17,10 @@ logger = logging.getLogger("room-planner-api")
 app = Flask(__name__)
 CORS(app)
 
+model = None
+model_init_error = None
+model_lock = Lock()
+
 # === UPDATE THESE WITH YOUR ACTUAL MYSQL CREDENTIALS ===
 DB_CONFIG = {
     'host': 'localhost',
@@ -28,18 +32,33 @@ DB_CONFIG = {
     'autocommit': True
 }
 
-# Initialize model
-try:
-    model = RoomPlannerModel(DB_CONFIG)
-    logger.info("Room Planner Model initialized successfully")
-except Exception as e:
-    logger.error(f"Failed to initialize model: {str(e)}")
-    model = None
+def get_model():
+    global model, model_init_error
+
+    if model is not None:
+        return model
+
+    with model_lock:
+        if model is not None:
+            return model
+
+        try:
+            from model import RoomPlannerModel
+
+            model = RoomPlannerModel(DB_CONFIG)
+            model_init_error = None
+            logger.info("Room Planner Model initialized successfully")
+            return model
+        except Exception as e:
+            model_init_error = str(e)
+            logger.error(f"Failed to initialize model: {model_init_error}")
+            return None
 
 
 @app.route('/api/search', methods=['POST'])
 def search():
-    if model is None:
+    current_model = get_model()
+    if current_model is None:
         return jsonify({'error': 'Service unavailable'}), 500
     try:
         data = request.json
@@ -52,7 +71,7 @@ def search():
         if not all([room_size, room_type, style, budget]):
             return jsonify({'error': 'Missing required parameters'}), 400
 
-        result = model.search(room_size, room_type, style, budget, limit)
+        result = current_model.search(room_size, room_type, style, budget, limit)
         return jsonify(result)
     except Exception as e:
         logger.error(f"Search error: {str(e)}", exc_info=True)
@@ -61,10 +80,11 @@ def search():
 
 @app.route('/api/product/<product_id>', methods=['GET'])
 def get_product(product_id):
-    if model is None:
+    current_model = get_model()
+    if current_model is None:
         return jsonify({'error': 'Service unavailable'}), 500
     try:
-        product_data = model.get_product_by_id(product_id)
+        product_data = current_model.get_product_by_id(product_id)
         if product_data is None:
             return jsonify({'error': 'Product not found'}), 404
         return jsonify(product_data)
@@ -78,11 +98,12 @@ def get_related_products(product_id):
     """
     New Endpoint: Returns up to 10 ML-based related products
     """
-    if model is None:
+    current_model = get_model()
+    if current_model is None:
         return jsonify({'error': 'Service unavailable'}), 500
     try:
         limit = int(request.args.get('limit', 10))
-        related = model.get_related_products(product_id, limit=min(limit, 10))
+        related = current_model.get_related_products(product_id, limit=min(limit, 10))
 
         if not related:
             return jsonify({'error': 'Product not found or no related products'}), 404
@@ -98,10 +119,11 @@ def get_related_products(product_id):
 
 @app.route('/api/filters', methods=['GET'])
 def get_filters():
-    if model is None:
+    current_model = get_model()
+    if current_model is None:
         return jsonify({'error': 'Service unavailable'}), 500
     try:
-        return jsonify(model.get_available_filters())
+        return jsonify(current_model.get_available_filters())
     except Exception as e:
         logger.error(f"Filters error: {str(e)}")
         return jsonify({'error': 'Internal server error'}), 500
@@ -109,7 +131,8 @@ def get_filters():
 
 @app.route('/api/health', methods=['GET'])
 def health_check():
-    status = "healthy" if model is not None else "degraded"
+    current_model = get_model()
+    status = "healthy" if current_model is not None else "degraded"
     return jsonify({
         'status': status,
         'message': 'Room Planner API is running'

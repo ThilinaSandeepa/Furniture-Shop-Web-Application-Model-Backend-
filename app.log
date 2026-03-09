@@ -4630,3 +4630,56 @@ IndexError: index 10 is out of bounds for axis 0 with size 10
 2026-03-03 17:40:17,390 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 17:40:17] "GET /api/product/3fab99f0-9ae0-456d-bc18-eafc376e3296/related?limit=10 HTTP/1.1" 200 -
 2026-03-03 17:40:17,878 - RoomPlannerModel - INFO - Successfully loaded 92 products
 2026-03-03 17:40:17,906 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 17:40:17] "GET /api/product/3fab99f0-9ae0-456d-bc18-eafc376e3296/related?limit=10 HTTP/1.1" 200 -
+2026-03-04 22:38:37,561 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://127.0.0.1:5001
+2026-03-04 22:38:37,563 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-05 18:06:58,558 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.100.217:5001
+2026-03-05 18:06:58,559 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-05 18:08:21,673 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:08:21] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-03-05 18:08:44,239 - RoomPlannerModel - INFO - Successfully loaded 92 products
+2026-03-05 18:08:44,249 - room-planner-api - INFO - Room Planner Model initialized successfully
+2026-03-05 18:08:44,271 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:08:44] "POST /api/search HTTP/1.1" 200 -
+2026-03-05 18:08:54,151 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:08:54] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-03-05 18:08:54,488 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:08:54] "POST /api/search HTTP/1.1" 200 -
+2026-03-05 18:09:17,802 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:09:17] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-03-05 18:09:18,133 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:09:18] "POST /api/search HTTP/1.1" 200 -
+2026-03-05 18:09:23,380 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:09:23] "GET /api/product/680e8ef7-acb7-4b23-b9f1-1b0ac9ea3dd7/related?limit=10 HTTP/1.1" 200 -
+2026-03-05 18:09:23,748 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:09:23] "GET /api/product/680e8ef7-acb7-4b23-b9f1-1b0ac9ea3dd7/related?limit=10 HTTP/1.1" 200 -
+2026-03-05 18:09:41,810 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:09:41] "GET /api/product/680e8ef7-acb7-4b23-b9f1-1b0ac9ea3dd7/related?limit=10 HTTP/1.1" 200 -
+2026-03-05 18:09:42,079 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:09:42] "GET /api/product/680e8ef7-acb7-4b23-b9f1-1b0ac9ea3dd7/related?limit=10 HTTP/1.1" 200 -
+2026-03-05 18:16:51,595 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:16:51] "GET /api/product/002e4e49-d375-4e48-9b22-1bc35543efc6/related?limit=10 HTTP/1.1" 200 -
+2026-03-05 18:16:51,840 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:16:51] "GET /api/product/002e4e49-d375-4e48-9b22-1bc35543efc6/related?limit=10 HTTP/1.1" 200 -
+2026-03-05 18:17:02,283 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:17:02] "GET /api/product/002e4e49-d375-4e48-9b22-1bc35543efc6/related?limit=10 HTTP/1.1" 200 -
+2026-03-05 18:17:02,708 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:17:02] "GET /api/product/002e4e49-d375-4e48-9b22-1bc35543efc6/related?limit=10 HTTP/1.1" 200 -
+2026-03-05 18:25:39,062 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:25:39] "GET /api/product/0288d997-8b52-45ed-a2ee-c9ae6ed2d42b/related?limit=10 HTTP/1.1" 200 -
+2026-03-05 18:25:39,324 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:25:39] "GET /api/product/0288d997-8b52-45ed-a2ee-c9ae6ed2d42b/related?limit=10 HTTP/1.1" 200 -
+2026-03-05 21:28:33,733 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.7:5001
+2026-03-05 21:28:33,735 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-05 21:29:36,799 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 21:29:36] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-03-05 21:29:42,655 - RoomPlannerModel - INFO - Successfully loaded 92 products
+2026-03-05 21:29:42,660 - room-planner-api - INFO - Room Planner Model initialized successfully
+2026-03-05 21:29:42,665 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 21:29:42] "POST /api/search HTTP/1.1" 200 -
+2026-03-07 15:05:21,514 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.7:5001
+2026-03-07 15:05:21,516 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-09 18:22:49,428 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.4:5001
+2026-03-09 18:22:49,430 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-09 18:25:12,002 - werkzeug - INFO - 127.0.0.1 - - [09/Mar/2026 18:25:12] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-03-09 18:25:33,389 - RoomPlannerModel - INFO - Successfully loaded 92 products
+2026-03-09 18:25:33,397 - room-planner-api - INFO - Room Planner Model initialized successfully
+2026-03-09 18:25:33,412 - werkzeug - INFO - 127.0.0.1 - - [09/Mar/2026 18:25:33] "POST /api/search HTTP/1.1" 200 -
+2026-03-09 18:25:42,984 - werkzeug - INFO - 127.0.0.1 - - [09/Mar/2026 18:25:42] "OPTIONS /api/search HTTP/1.1" 200 -
+2026-03-09 18:25:43,314 - werkzeug - INFO - 127.0.0.1 - - [09/Mar/2026 18:25:43] "POST /api/search HTTP/1.1" 200 -

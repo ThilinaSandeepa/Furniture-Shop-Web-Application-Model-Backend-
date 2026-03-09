@@ -145,12 +145,6 @@ class RoomPlannerModel:
             # === CATEGORY KEYWORD INFERENCE ===
             # Products whose room_type is 'Unknown' (or whose category is not a room-type name)
             # get a room_type inferred from their category name using keyword matching.
-            def infer_room_type(current_room_type):
-                normalized = current_room_type.lower().strip()
-                if normalized not in ('unknown', ''):
-                    return current_room_type  # already has a value
-                return current_room_type
-
             def infer_room_type_from_category(row):
                 """Also used for products whose category name is NOT itself a room-type label."""
                 rt = str(row.get('room_type', '')).strip()
@@ -182,7 +176,11 @@ class RoomPlannerModel:
         self.encoder = OneHotEncoder(sparse_output=False, handle_unknown='ignore')
         encoded = self.encoder.fit_transform(self.df[categorical_cols])
 
-        price_norm = (self.df['price'] / self.df['price'].max()).values.reshape(-1, 1)
+        max_price = self.df['price'].max()
+        if max_price and max_price > 0:
+            price_norm = (self.df['price'] / max_price).values.reshape(-1, 1)
+        else:
+            price_norm = np.zeros((len(self.df), 1))
         price_weighted = np.repeat(price_norm, 3, axis=1)
 
         self.feature_matrix = np.hstack((encoded, price_weighted))
@@ -211,9 +209,6 @@ class RoomPlannerModel:
         return (matched / 4.0) * 100.0
 
     def search(self, room_size, room_type, style, budget_range, limit=5):
-        self.df = self._load_dataset()
-        self._prepare_similarity_features()
-
         room_size_norm = self._normalize_value(room_size)
         room_type_norm = self._normalize_value(room_type)
         style_norm = self._normalize_value(style)
@@ -286,43 +281,32 @@ class RoomPlannerModel:
 
         room_size_adjusted = (not has_exact_match) and bool(suggestions)
 
-        return {
-            'title': f"{style_display} {room_type_display} Design",
-            'description': (
+        if has_exact_match:
+            description = (
                 f"Exact-match recommendations for your {room_size_display.lower()} {room_type_display.lower()} "
                 f"in {style_display.lower()} style ({budget_display.lower()} budget)."
-                if has_exact_match
-                else (
-                    f"No products found for your {room_size_display.lower()} {room_type_display.lower()} "
-                    f"in {style_display.lower()} style with a {budget_display.lower()} budget. "
-                    f"Try adjusting your room size or style to see more options."
-                )
-            ),
+            )
+        elif suggestions:
+            description = (
+                f"No exact match for your {room_size_display.lower()} room size, "
+                f"but here are similar {style_display.lower()} {room_type_display.lower()} products "
+                f"within your {budget_display.lower()} budget."
+            )
+        else:
+            description = (
+                f"No products found for your {room_size_display.lower()} {room_type_display.lower()} "
+                f"in {style_display.lower()} style with a {budget_display.lower()} budget. "
+                f"Try adjusting your room size or style to see more options."
+            )
+
+        return {
+            'title': f"{style_display} {room_type_display} Design",
+            'description': description,
             'suggestions': suggestions,
             'room_size_adjusted': room_size_adjusted,
             'tips': self._generate_design_tips(room_size_display, room_type_display, style_display, budget_display),
             'tags': self._generate_tags(room_size_display, room_type_display, style_display, budget_display)
         }
-
-    def _get_query_vector(self, room_size, room_type, style, budget_range):
-        query_df = pd.DataFrame([{
-            'room_size': room_size,
-            'room_type': room_type,
-            'style': style,
-            'budget_range': budget_range
-        }])
-
-        encoded_query = self.encoder.transform(query_df)
-
-        mask = (self.df['room_type'] == room_type) & (self.df['budget_range'] == budget_range)
-        avg_price = self.df[mask]['price'].mean()
-        if np.isnan(avg_price):
-            avg_price = self.df['price'].mean()
-
-        price_norm = np.array([[avg_price / self.df['price'].max()]])
-        price_weighted = np.repeat(price_norm, 3, axis=1)
-
-        return np.hstack((encoded_query, price_weighted))
 
     def _generate_design_tips(self, room_size, room_type, style, budget_range):
         tips = []
@@ -389,9 +373,6 @@ class RoomPlannerModel:
         return base + extras + room_extras
 
     def get_product_by_id(self, product_id):
-        self.df = self._load_dataset()
-        self._prepare_similarity_features()
-
         product_id = str(product_id)
         product_row = self.df[self.df['id'] == product_id]
 
@@ -405,9 +386,6 @@ class RoomPlannerModel:
         """
         ML-powered related products using cosine similarity on the same feature space.
         """
-        self.df = self._load_dataset()
-        self._prepare_similarity_features()
-
         product_id = str(product_id)
         product_row = self.df[self.df['id'] == product_id]
 
@@ -474,6 +452,7 @@ class RoomPlannerModel:
 
     def get_available_filters(self):
         self.df = self._load_dataset()
+        self._prepare_similarity_features()
         return {
             'room_sizes': sorted(self.df['room_size'].unique().tolist()) if 'room_size' in self.df else [],
             'room_types': sorted(self.df['room_type'].unique().tolist()),
